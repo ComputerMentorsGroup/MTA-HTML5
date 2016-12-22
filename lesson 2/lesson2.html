@@ -12,8 +12,8 @@ Need an idea?  Pick from these prompts:
 
 CRITERIA:
 1. Must include a title
-2. Must include at least one hx (h1-h6) tag
-3. Must contain at least two images with at least two attributes each
+2. Must include at least one hx (h1-h6) tag with at least one attribute (such as color or font)
+3. Must contain at least two images with at least two attributes each (such as width, height, alternative text, etc)
 4. One image must be contained within a FIGURE tag and have a caption
 5. Must contain at least one paragraph with a MARK tag within it
 6. At least one paragraph should be contained within a div
@@ -50,13 +50,13 @@ Sorry, Your browser does not support HTML5 videos.
 
 <!-- classes are a GLOBAL ELEMENT used to assign elements a label for specific styling.
 All we know in this example is that mainHeading is a special kind of h1, but how special?  We find out later. -->
-<h1 class="mainHeading">Company Name</h1>
+<h1 class="mainHeading" style="color: green; font-family: Cooper Black">Company Name</h1>
 
 <!-- FIGURE tag is any easy way to put multiple images side by side and FIGCAPTION easily lets you put a description underneathe the images. -->
 <figure>
-<img src="company.jpg" height="200px" width="auto" alt="logo" />
-<img src="shoe.jpg" height="200px" width="auto" alt="Nike Shoe" />
-<img src="xbox.jpg" height="200px" width="auto" alt="xbox controller" />
+<img src="company.jpg" alt="logo" style="height:200px; width:auto" />
+<img src="shoe.jpg" alt="Nike Shoe" style="height:200px; width:auto"  />
+<img src="xbox.jpg" alt="xbox controller" style="height:200px; width:auto" />
 <figcaption>Product Images</figcaption>
 </figure>
 
