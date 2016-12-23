@@ -1,17 +1,23 @@
-#Lesson Title goes here
+## Teen Tech Student Lessons for HTML5 
+www.teen-tech.org
 
-Description of the code below should go here.
 
-```C#
-// Sample code should that demonstrates what should be taught in this lesson should go here
-```
-## Details
-Details about what the code above goes here
+Welcome to the Teen Tech web track!  We have a few tips to help you get started on your journey.
 
-* `Each line of code should be bulleted here`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
-# Exercise
+## Keep your code organized!
+**Create a folder for all of your web lessons in a safe place on your laptop!**
 
-A challenge relating to the original sample code should go here.
+## Find a text-editor you like!
+**Windows comes with Notepad, which is as basic as it gets as a tool for coding. As you progress, you might want to check out some other great FREE tools available to you.**
+* https://code.visualstudio.com/
+* http://brackets.io
+* https://www.sublimetext.com/
+* https://notepad-plus-plus.org
+
+## Practice!
+Want some extra practice?  Check out these sites:
+* http://dash.generalassemb.ly 
+* http://codepen.io
+* http://codecademy.com
+* http://freecodecamp.com
+
