@@ -95,10 +95,12 @@ pages as created in previous lessons.
 * `<style></style>`
     * Contains CSS (Cascading Style Sheet) properties and attributes.
     * CSS uses the following format: SELECTOR {property: attribute;}
+
 | SELECTOR | PROPERTY | ATTRIBUTE |
 | --- | --- | --- |
 | h1 | {color: | red;} |
-    * multiple properties and attributes may be used within the {} like so:
+
+* multiple properties and attributes may be used within the {} like so:
     ```HTML5
     h1{
         color: red; 
@@ -110,7 +112,7 @@ pages as created in previous lessons.
     * CSS: Styles `<section></section>` with the Tahoma font (text style).
 * `.nathan {font-family: Webdings;}`
     * CSS: Styles `<p class="nathan">` with the Webdings font (text style).
-* `#symphomies {color: red;}`
+* `#symphonies {color: red;}`
     * CSS: Styles `<div id="symphonies">` with red text.
 * `<header></header>`
     * The `<header>` element specifies a header for a document or section. The `<header>` 
