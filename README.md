@@ -22,10 +22,11 @@ Want some extra practice?  Check out these sites:
 * http://freecodecamp.com
 
 ## Get started
-So how's this work? You have three options.
+So how's this work? You have three options:
+
 1. Download the entire lessons package as a zip (not recommended, but easy!  You just won't have the latest stuff.)
 2. Copy/Paste the pieces of code you need into your own text editor.
-3. Use GitHub to fork your own versions.
+3. Use GitHub to fork your own versions and create a live website.
 
 ## Getting Started with GitHub
 You will need to download and install the following:
@@ -35,12 +36,14 @@ You will need to download and install the following:
 1. Create a GitHub Account
 2. Go to https://github.com/ComputerMentorsGroup/MTA-HTML5 
 3. Click "FORK" at the top right
+4. In settings, rename the repository to *yourusername*.**github.io**
+    4. This step makes your repository a living website!  You can visit yourusername.github.io to see your site.
+    4. For it to work properly, index.html will need to be in the root folder 
 4. Within your new repository, copy the CLONE/DOWNLOAD web address (right side)
 4. Open Git GUI
 5. "Clone Existing Repository"
 6. Paste the web address (from step 4) into SOURCE
-7. Under target, you'll pick where you want the files to be stored on your laptop
-**Let it create the folder for you!**
+7. Under target, you'll pick where you want the files to be stored on your laptop. **Let it create the folder for you!**
 8. Open Visual Studio Code
 9. Click File - Open folder
 10. Open your new folder which should have all the lessons in it
