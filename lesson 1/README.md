@@ -59,7 +59,7 @@ the website address between quotes, and the text you'd like to display (the "Cli
     * **Character Entities** are a cool way to use icons on your site.  They begin with the & symbol and end with the ; symbol.  Check out all the different character entities and their code here -https://dev.w3.org/html5/html-author/charref
 
 
-## Challenge 1
+# Challenge 1
 
 Solve problems found in the code below:
 
