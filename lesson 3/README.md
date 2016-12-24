@@ -12,9 +12,9 @@ pages as created in previous lessons.
 
 
 **Criteria for the Lesson 3 webpage:**
-* Must define an area as your <header> (the top, usually logo/business name)
-* Must define an area as a <footer> (the bottom, usually has copyright info)
-* Must define a <section> (usually contains paragraphs or specific content)
+* Must define an area as your `<header>` (the top, usually logo/business name)
+* Must define an area as a `<footer>` (the bottom, usually has copyright info)
+* Must define a `<section>` (usually contains paragraphs or specific content)
 * Define a navigation area (where links will go)
 * Define links for at least "Home" "About" and "Contact", using # as the url.
 * Set an ID to any element and create a link to it in the NAV area
@@ -197,7 +197,7 @@ for more information.  If it isn't working for you, try using Google Chrome.
 * Modify CSS (between the STYLE tags) with the following changes:
     * Header should be red with the Pacifico font family.
     * Header 2 tags should be blue
-    * Change the "more" class (at the bottom of in the "details" tag) to have smaller font.  font-size: 12pt;
+    * Change the "more" class (at the bottom of in the "details" tag) to have smaller font.  `font-size: 12pt`;
     * Change the footer color to grey.
     * Change the article color to brown.
 
