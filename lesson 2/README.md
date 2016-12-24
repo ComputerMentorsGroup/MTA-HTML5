@@ -14,16 +14,16 @@ Lesson two introduces a few more HTML tags and what is known as *inline styling*
 * There is something important happening in the community that needs more awareness.  What is it?
 
 **Criteria for the Lesson 2 webpage:**
-    * Must include a title
-    * Must include at least one hx (h1-h6) tag with at least one attribute (such as color or font)
-    * Must contain at least two images with at least two attributes each (such as width, height, alternative text, etc)
-    * One image must be contained within a FIGURE tag and have a caption
-    * Must contain at least one paragraph with a MARK tag within it
-    * At least one paragraph should be contained within a div
-    * The div must have an id and a class name
-    * Must include at least one link to index.html
-    * Must include at least one character entity
-    * Must include at least one video OR audio file
+* Must include a title
+* Must include at least one hx (h1-h6) tag with at least one attribute (such as color or font)
+* Must contain at least two images with at least two attributes each (such as width, height, alternative text, etc)
+* One image must be contained within a FIGURE tag and have a caption
+* Must contain at least one paragraph with a MARK tag within it
+* At least one paragraph should be contained within a div
+* The div must have an id and a class name
+* Must include at least one link to index.html
+* Must include at least one character entity
+* Must include at least one video OR audio file
 
 ```HTML5
 <!doctype html>

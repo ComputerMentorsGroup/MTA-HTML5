@@ -13,9 +13,9 @@ In Lesson Num you will.... (objective)
 * idea
 
 **Criteria for the Lesson NUMBER webpage:**
-    * .
-    * .
-    * .
+* .
+* .
+* .
 
 ```HTML5
 // Sample code should that demonstrates what should be taught in this lesson should go here

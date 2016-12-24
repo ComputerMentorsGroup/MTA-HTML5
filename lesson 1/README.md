@@ -17,12 +17,12 @@ In Lesson one you will learn basic HTML5 tags to create a structure and content 
 
 
 **Criteria for the Lesson 1 webpage:**
-    * Must include a title
-    * Must use at least two hx (h1-h6) tags
-    * Must contain at least one image
-    * Must contain at least one paragraph
-    * Must include at least one link
-    * Must include at least two character entities
+* Must include a title
+* Must use at least two hx (h1-h6) tags
+* Must contain at least one image
+* Must contain at least one paragraph
+* Must include at least one link
+* Must include at least two character entities
 
 
 ```HTML5
