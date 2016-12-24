@@ -84,20 +84,20 @@ pages as created in previous lessons.
 ```
 
 ## Details
-Details about what the code above goes here
 
 * `<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">`
     * Fonts will only work if the person viewing the site has the font installed on your computer
-    * By using a FONT LIBRARY such as fonts.google.com, everyone has access to all fonts in the library
-    * When you browse http://fonts.google.com and find a font you like, click on it, then use the plus sign at the
+    * By using a FONT LIBRARY such as fonts.google.com, everyone can see your font
+    * When you browse http://fonts.google.com and find a font you like, click on it, then use the FAMILY SELECTED bar at the
     bottom to retrieve the "head" link.  This points back to the library so the browser pull it into your document.
+    * **Always put this link between the `<head></head>` tags.**
     * Use `font-family: fontName;` in your stylesheet as needed.
 * `<style></style>`
     * Contains CSS (Cascading Style Sheet) properties and attributes.
     * CSS uses the following format: SELECTOR {property: attribute;}
-    | SELECTOR | PROPERTY | ATTRIBUTE |
-    | --- | --- | --- |
-    | h1 | {color: | red;} |
+| SELECTOR | PROPERTY | ATTRIBUTE |
+| --- | --- | --- |
+| h1 | {color: | red;} |
     * multiple properties and attributes may be used within the {} like so:
     ```HTML5
     h1{
