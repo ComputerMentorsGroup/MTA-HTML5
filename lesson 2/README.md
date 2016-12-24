@@ -13,7 +13,7 @@ Lesson two introduces a few more HTML tags and what is known as *inline styling*
 * You've started your own business.  What is it?  Give us some backstory on you, the founder and CEO.
 * There is something important happening in the community that needs more awareness.  What is it?
 
-* **Criteria for the Lesson 1 webpage:**
+* **Criteria for the Lesson 2 webpage:**
     * Must include a title
     * Must include at least one hx (h1-h6) tag with at least one attribute (such as color or font)
     * Must contain at least two images with at least two attributes each (such as width, height, alternative text, etc)
@@ -68,70 +68,98 @@ Sorry, Your browser does not support HTML5 videos.
 ## Details
 
 * `<video></video>`
-    * `<source src="..." type="..."">`
+    * `<source src="..." type="...">`
+        * This tag defines what the video file is/where it is stored.  You should include two source tags,
+        placed between the video tags. One source should point to an .ogv file, and the other an .mp4 
+        **When the browser loads a video, it plays the first compatible video file (.ogv or mp4).**
+        Additionally, you should include a line under both source tags in case neither file loads:
+        "Sorry, your browser does not support HTML5 Video." for example.
+        * `<video> <source src="assets/newWave.mp4" type="video/mp4"> <source src="assets/newWave.ogv" type="video/ogg"></video>`
     * `width=""` and `height=""`
+        * Specify a width and height for the video.  Place WITHIN the video tag.
+        * `<video width="400" height="300">`
     * `autoplay="autoplay"`
+        * Autoplay lets the video start on its own, as soon as the page loads.  Place WITHIN the video tag.
+        * `<video autoplay="autoplay">`
     * `loop="loop"`
+        * Loop continously plays the video over and over again, infinitely.  Place WITHIN the video tag.
+        * `<video loop="loop">`
     * `controls="controls"`
+        * Display controls for the viewer to stop/play the video.  Place WITHIN the video tag.
+        * `<video controls="controls">`
     * `poster="..."`
+        * Define an image to represent the video before it is played.  Place WITHIN the video tag.
+        * `<video poster="hannah.jpg">`
+    * `preload="none"`
+        * PRELOAD is optional.  The default value is AUTO, which means the video loads when the entire page loads.
+        * NONE means the video does not load when the page loads.
+        * If the video autoplays when the page is loaded, then PRELOAD is not needed.
+        * `<video preload="none">`
 * `<h1 class="mainHeading"></h1>`
+    * CLASSES may be assigned to any HTML tag.  Classes give elements a name, which makes it easy to style the document.
 * `<style ="color: green;">`
+    * **Inline Styling** is not recommended, but occasionally used, and is great for learning the beginnings
+    of **CSS (Cascading Style Sheets)**.  Pay close attention to the syntax.
+    * **Property:** *attribute;*
+    * Properties are defined keywords - you will learn many different ones!  Attributes are your "choice", or how you define the property.
+    * `<p style="color: red;">` This text is red. `</p>` Anything outside the paragraph is normally formatted.
 * `<style ="font-family: Arial;">`
 * `<figure></figure>`
+    * FIGURE is a way of grouping images together.  Multiple images between the figure tag are placed side-by-side.
 * `<figcaption></figcaption>`
+    * Set a caption under the grouping of images, such as "Product Images"
 * `<div></div>`
+    * DIV is a way to divide up your content and page so it can be styled separately.  Think of DIV as a room in a 
+    house - it's still part of the house, but might have a different "theme" or appearance.  
 * `<div id="...">`
-
+    * DIVs should be named, just like within a house we have names for rooms such as the kitchen or bedroom.
+    Sometimes you willl need to **nest** your DIVs to give them extra styling power.  We will go into this more later, 
+    bust as an example, a kitchen might contain the dining room all in one. IDs are usually used with JavaScript to 
+    make your web pages dynamic and interactive. DIVs may also be given both an ID and a CLASS name.
 
 # Challenge 2
 
-A challenge relating to the original sample code should go here.
+Solve the problems found in the code below.
 
+```HTML5
+<!doctype html>
+	<head>
+		<title>Willy Wonka's Chocolate Factory</title>
+	</head>
 
+<body>
+	<h1 style="color: LightGrey">Willy Wonka and the Chocolate Factory</h1>
 
+<video
+width="500px" height="400px" controls="controls">
+<source src="assets/willywonka">
+<source src="assets/willywonka.ogv">
+Sorry - HTML5 videos are not supported on your device.
+</video>
 
+<figure>
+<img src="assets/wonkabar1.jpg">
+<img src="assets/wonkagobstopper.jpg">
 
-<!-- INSTRUCTIONS:
-1. Open Notepad
-2. Save the file as about.html
-3. Make sure this file is in the same folder as your index.html file.
-4. Using the example below, reproduce the webpage with your own content
+<figcaption>Willy Wonka Candy Company</figcaption>
+</figure>
 
-Need an idea?  Pick from these prompts:
-* You are marketing a new product. Tell the world about the product.
-* You've started your own business.  What is it?  Give us some backstory on you, the founder and CEO.
-* There is something important happening in the community that needs more awareness.  What is it?
+<img src="assets/wonkalaffy.jpg" style="height: 10%; width: 10%;">
+	
+<audio loop="loop" autoplay="autoplay" controls="controls">
+<source src="assets/alert.mp3">
+<source src="assets/alert.ogg">
+Sorry, HTML5 Audio clips are not supported on your device.
+</audio>
 
+</body>
+</html>
+```
 
-CRITERIA:
-1. Must include a title
-2. Must include at least one hx (h1-h6) tag with at least one attribute (such as color or font)
-3. Must contain at least two images with at least two attributes each (such as width, height, alternative text, etc)
-4. One image must be contained within a FIGURE tag and have a caption
-5. Must contain at least one paragraph with a MARK tag within it
-6. At least one paragraph should be contained within a div
-7. The div must have an id and a class name
-8. Must include at least one link to index.html
-9. Must include at least one character entity
-10. Must include at least one video OR audio file
--->
-<!-- Video and Audio files are inserted in a similar way.  An audio file has no
-need to include the height, width, or poster (since it is not a visual element).
-Audio files come in formats .mp3 and .ogg, while video formats are .mp4 and .ogv.
-You can find free videos to use on videos.pexels.com - you must save them (mp4) and convert the file
-to (ogv) using any free online tool.  
-Why? Some browsers can only see ogv/ogg files.  The browser will pick the first compatible file to play. -->
-
-<!-- include a message for people who have really old web browsers! -->
-<!-- classes are a GLOBAL ELEMENT used to assign elements a label for specific styling.
-All we know in this example is that mainHeading is a special kind of h1, but how special?  We find out later. -->
-
-<!-- FIGURE tag is any easy way to put multiple images side by side and FIGCAPTION easily lets you put a description underneathe the images. -->
-
-<!-- DIV is a way to divide up the page.  Think of DIV as a room in a house - it's still part of the house, but might have
-a different "theme" or appearance.  
-DIVs should be named, just like the livingroom and your bedroom have names.
-Sometimes DIVs will be nested, for example, a kitchen might contain the dining room all in one.
-IDs will be useful when we start using JavaScript - we will cover this soon!  JavaScript makes your
-web pages dynamic and interactive. 
-CLASSES are used for styling.-->
+* CRITERIA:
+    * Why won't the video file play?
+    * The Willy Wonka Chocolate bar is gigantic!  Fix it!
+    * The LaffyTaffy picture should be next to the other candy, NOT underneath. Find the easiest fix for this?
+    * Also, the LaffyTaffy picture should not be so small. Find out why it got shrunk and fix it please. 
+    * Make the audio file stop looping
+    * Why is the header "Willy Wonka and the Chocolate Factory" light grey? Make it any other color.
