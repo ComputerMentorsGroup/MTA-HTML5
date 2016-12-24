@@ -1,4 +1,4 @@
-## Lesson 1
+# Lesson 1
 
 In Lesson one you will learn basic HTML5 tags to create a structure and content for your webpage. 
 

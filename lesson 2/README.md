@@ -1,17 +1,137 @@
-#Lesson Title goes here
+# Lesson 2
 
-Description of the code below should go here.
+Lesson two introduces a few more HTML tags and what is known as *inline styling*.
 
-```C#
-// Sample code should that demonstrates what should be taught in this lesson should go here
+### Instructions
+1. Open Notepad
+2. Save the file as about.html
+3. Make sure this file is in the same folder as your index.html file.
+4. Using the example below, reproduce the webpage with your own content
+
+**Need an idea?  Pick from these prompts:**
+* You are marketing a new product. Tell the world about the product.
+* You've started your own business.  What is it?  Give us some backstory on you, the founder and CEO.
+* There is something important happening in the community that needs more awareness.  What is it?
+
+* **Criteria for the Lesson 1 webpage:**
+    * Must include a title
+    * Must include at least one hx (h1-h6) tag with at least one attribute (such as color or font)
+    * Must contain at least two images with at least two attributes each (such as width, height, alternative text, etc)
+    * One image must be contained within a FIGURE tag and have a caption
+    * Must contain at least one paragraph with a MARK tag within it
+    * At least one paragraph should be contained within a div
+    * The div must have an id and a class name
+    * Must include at least one link to index.html
+    * Must include at least one character entity
+    * Must include at least one video OR audio file
+
+```HTML5
+<!doctype html>
+<head>
+	<title>My First Company Website</title>
+</head>
+
+<body>
+
+<video
+width="400" height="300"
+poster="splashpage.jpg"
+autoplay="autoplay"
+controls="controls"
+loop="loop">
+<source src="aseets/video.mp4" type="video/mp4">
+<source src="assets/video.ogv" type='video/ogg; codecs="theora, vorbis"'>
+Sorry, Your browser does not support HTML5 videos.
+</video>
+
+<h1 class="mainHeading" style="color: green; font-family: Cooper Black">Company Name</h1>
+
+<figure>
+<img src="assets/company.jpg" alt="logo" style="height:200px; width:auto" />
+<img src="assets/shoe.jpg" alt="Nike Shoe" style="height:200px; width:auto"  />
+<img src="assets/xbox.jpg" alt="xbox controller" style="height:200px; width:auto" />
+<figcaption>Product Images</figcaption>
+</figure>
+
+<div id="welcomeMessage" class="welcome">
+	<p>Welcome to <mark>the Chocolate Factory</mark>!  My name is <mark>Willy Wonka</mark>.</p>
+</div>
+
+<p><a href="index.html">For more information click here!</a></p>
+
+<p> &phone; <b>Call us at 813-888-1234.</p>
+
+</body>
+</html>
 ```
-## Details
-Details about what the code above goes here
 
-* `Each line of code should be bulleted here`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
-# Exercise
+## Details
+
+* `<video></video>`
+    * `<source src="..." type="..."">`
+    * `width=""` and `height=""`
+    * `autoplay="autoplay"`
+    * `loop="loop"`
+    * `controls="controls"`
+    * `poster="..."`
+* `<h1 class="mainHeading"></h1>`
+* `<style ="color: green;">`
+* `<style ="font-family: Arial;">`
+* `<figure></figure>`
+* `<figcaption></figcaption>`
+* `<div></div>`
+* `<div id="...">`
+
+
+# Challenge 2
 
 A challenge relating to the original sample code should go here.
+
+
+
+
+
+<!-- INSTRUCTIONS:
+1. Open Notepad
+2. Save the file as about.html
+3. Make sure this file is in the same folder as your index.html file.
+4. Using the example below, reproduce the webpage with your own content
+
+Need an idea?  Pick from these prompts:
+* You are marketing a new product. Tell the world about the product.
+* You've started your own business.  What is it?  Give us some backstory on you, the founder and CEO.
+* There is something important happening in the community that needs more awareness.  What is it?
+
+
+CRITERIA:
+1. Must include a title
+2. Must include at least one hx (h1-h6) tag with at least one attribute (such as color or font)
+3. Must contain at least two images with at least two attributes each (such as width, height, alternative text, etc)
+4. One image must be contained within a FIGURE tag and have a caption
+5. Must contain at least one paragraph with a MARK tag within it
+6. At least one paragraph should be contained within a div
+7. The div must have an id and a class name
+8. Must include at least one link to index.html
+9. Must include at least one character entity
+10. Must include at least one video OR audio file
+-->
+<!-- Video and Audio files are inserted in a similar way.  An audio file has no
+need to include the height, width, or poster (since it is not a visual element).
+Audio files come in formats .mp3 and .ogg, while video formats are .mp4 and .ogv.
+You can find free videos to use on videos.pexels.com - you must save them (mp4) and convert the file
+to (ogv) using any free online tool.  
+Why? Some browsers can only see ogv/ogg files.  The browser will pick the first compatible file to play. -->
+
+<!-- include a message for people who have really old web browsers! -->
+<!-- classes are a GLOBAL ELEMENT used to assign elements a label for specific styling.
+All we know in this example is that mainHeading is a special kind of h1, but how special?  We find out later. -->
+
+<!-- FIGURE tag is any easy way to put multiple images side by side and FIGCAPTION easily lets you put a description underneathe the images. -->
+
+<!-- DIV is a way to divide up the page.  Think of DIV as a room in a house - it's still part of the house, but might have
+a different "theme" or appearance.  
+DIVs should be named, just like the livingroom and your bedroom have names.
+Sometimes DIVs will be nested, for example, a kitchen might contain the dining room all in one.
+IDs will be useful when we start using JavaScript - we will cover this soon!  JavaScript makes your
+web pages dynamic and interactive. 
+CLASSES are used for styling.-->

@@ -51,6 +51,6 @@ You will need to download and install the following:
     * Type a brief summary of what you did (ex: lesson1 or challenge1) at the top of the Git panel
     * Click the Check Mark
     * Click the ... button
-    * Click Push to... and choose your repository.
+    * Click Push to... and choose your repository. DONE.
 It sounds like a lot, but this is the best way to work on your files!
 
