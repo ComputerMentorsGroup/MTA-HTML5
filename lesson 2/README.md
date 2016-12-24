@@ -13,7 +13,7 @@ Lesson two introduces a few more HTML tags and what is known as *inline styling*
 * You've started your own business.  What is it?  Give us some backstory on you, the founder and CEO.
 * There is something important happening in the community that needs more awareness.  What is it?
 
-* **Criteria for the Lesson 2 webpage:**
+**Criteria for the Lesson 2 webpage:**
     * Must include a title
     * Must include at least one hx (h1-h6) tag with at least one attribute (such as color or font)
     * Must contain at least two images with at least two attributes each (such as width, height, alternative text, etc)

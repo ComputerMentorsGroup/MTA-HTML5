@@ -12,7 +12,7 @@ In Lesson Num you will.... (objective)
 * idea
 * idea
 
-* **Criteria for the Lesson NUMBER webpage:**
+**Criteria for the Lesson NUMBER webpage:**
     * .
     * .
     * .
