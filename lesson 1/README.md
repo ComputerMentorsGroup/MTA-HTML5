@@ -2,7 +2,21 @@
 
 In Lesson one you will learn basic HTML5 tags to create a structure and content for your webpage. 
 
-* Criteria for the Lesson 1 webpage:
+### Instructions
+1. Open Notepad, or your favorite text editor.
+2. Save the file as index.html
+3. Using the example below, reproduce the webpage with your own content
+
+**Need an idea?  Pick from these prompts:**
+* Make the page about something you care about:
+    * Types of Music
+    * Favorite Sport
+    * Shoes
+    * Social Issues
+* Make a biography about yourself, your pet, or role model.
+
+
+* **Criteria for the Lesson 1 webpage:**
     * Must include a title
     * Must use at least two hx (h1-h6) tags
     * Must contain at least one image

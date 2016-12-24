@@ -1,10 +1,26 @@
-#Lesson Title goes here
+# Lesson Num
 
-Description of the code below should go here.
+In Lesson Num you will.... (objective)
 
-```C#
+### Instructions
+1. Open Notepad, or your favorite text editor.
+2. Save the file as.....
+3. Using the example below, reproduce the webpage with your own content
+
+**Need an idea?  Pick from these prompts:**
+* idea
+* idea
+* idea
+
+* **Criteria for the Lesson NUMBER webpage:**
+    * .
+    * .
+    * .
+
+```HTML5
 // Sample code should that demonstrates what should be taught in this lesson should go here
 ```
+
 ## Details
 Details about what the code above goes here
 
@@ -12,6 +28,17 @@ Details about what the code above goes here
     * A bulleted list of things about the line above should go here
     * **Really important stuff should be bold like this**
     * Keywords should be *italicized*
-# Exercise
+
+
+# Challenge Num
 
 A challenge relating to the original sample code should go here.
+
+```HTML5
+// Sample code should that demonstrates what should be taught in this lesson should go here
+```
+
+* CRITERIA
+    * item
+    * item
+    * item
