@@ -57,3 +57,48 @@ You will need to download and install the following:
     * Click Push to... and choose your repository. DONE.
 It sounds like a lot, but this is the best way to work on your files!
 
+# Outline
+
+## Week One
+Basic HTML tags
+
+## Week Two
+More HTML tags
+Inline Styling
+Video and Audio
+Images
+
+## Week Three
+CSS Style Sheets
+Classes and IDs
+Working with DIVs
+Semantic Elements
+
+## Week Four
+Tables
+Lists
+Inputs
+Forms
+More CSS features
+
+## Week Five
+Advanced CSS
+Flexbox
+Media Queries
+
+## Week Six
+Keyframes Animation using CSS
+Animation using Canvas
+Animation using SVG
+
+## Week Seven
+JavaScript
+* Alerts
+* Calculator
+* Mad Libs
+* Animation
+
+## Week Eight
+* Databases
+* Cloud 9
+* Basic SQL
