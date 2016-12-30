@@ -7,20 +7,6 @@ Welcome to the Teen Tech web track!  We have a few tips to help you get started 
 ## Keep your code organized!
 **Create a folder for all of your web lessons in a safe place on your laptop!**
 
-## Find a text-editor you like!
-**Windows comes with Notepad, which is as basic as it gets as a tool for coding. As you progress, you might want to check out some other great FREE tools available to you.**
-* https://code.visualstudio.com/
-* http://brackets.io
-* https://www.sublimetext.com/
-* https://notepad-plus-plus.org
-
-## Practice!
-Want some extra practice?  Check out these sites:
-* http://dash.generalassemb.ly 
-* http://codepen.io
-* http://codecademy.com
-* http://freecodecamp.com
-
 ## Get started
 So how's this work? You have three options:
 
@@ -60,6 +46,7 @@ It sounds like a lot, but this is the best way to work on your files!
 # Outline
 
 ## Week One
+* Getting Started
 * Basic HTML tags
 
 ## Week Two
@@ -84,21 +71,47 @@ It sounds like a lot, but this is the best way to work on your files!
 ## Week Five
 * Advanced CSS
 * Flexbox
+    * Flexbox Frogger
 * Media Queries
 
 ## Week Six
 * Keyframes Animation using CSS
 * Animation using Canvas
 * Animation using SVG
+* Canvas vs. SVG
 
 ## Week Seven
-JavaScript
-* Alerts
-* Calculator
-* Mad Libs
-* Animation
+* JavaScript
+    * Alerts
+    * Calculator
+    * Mad Libs
+    * Animation
+* File API
+* Web Worker
+* Cookies
 
 ## Week Eight
 * Databases
 * Cloud 9
 * Basic SQL
+
+## Week Nine
+* Application Life Cycle
+* Validating your Web App
+
+
+# Continue Learning
+
+## Find a text-editor you like!
+**Windows comes with Notepad, which is as basic as it gets as a tool for coding. As you progress, you might want to check out some other great FREE tools available to you.**
+* https://code.visualstudio.com/
+* http://brackets.io
+* https://www.sublimetext.com/
+* https://notepad-plus-plus.org
+
+## Practice!
+Want some extra practice?  Check out these sites:
+* http://dash.generalassemb.ly 
+* http://codepen.io
+* http://codecademy.com
+* http://freecodecamp.com
