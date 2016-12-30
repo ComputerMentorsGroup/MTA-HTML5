@@ -1,24 +1,51 @@
-# Lesson Num
+# Lesson 4
 
-In Lesson Num you will.... (objective)
+In Lesson 4 you will learn how to create and modify tables and lists.
 
 ### Instructions
 1. Open Notepad, or your favorite text editor.
-2. Save the file as.....
+2. Save the file as stats.html
 3. Using the example below, reproduce the webpage with your own content
 
 **Need an idea?  Pick from these prompts:**
-* idea
-* idea
-* idea
+* Pick a social issue or cause that you care about and replace the sample statistics with some of your own.
+    * Animal Adoptions
+    * Abuse
+    * Bullying
+    * Hunger
+    * Homelessness
+    * Cancer
+    * Violence
 
-**Criteria for the Lesson NUMBER webpage:**
-* .
-* .
-* .
+**Criteria for the Lesson 4 webpage:**
+* Must choose a topic different from the example or have completely different information
+* Create a table to represent data
+* Make a list of ways people can get involved
+* Create a Contact form (https://formspree.io/)
+* Change colors and fonts to make the page appealing
 
 ```HTML5
-// Sample code should that demonstrates what should be taught in this lesson should go here
+<!doctype html>
+<html>
+<head><title>Pollution Awareness</title></head>
+<body>
+
+<h1>Did you know?</h1>
+<p>Pollution accounts for.... </p>
+
+<table>
+<th>Effects of Pollution on the Environment</th>
+<tr>Pollution Type<td></td><td></td><td></td></tr>
+<tr><td>Land</td><td>4.3lbs of waste per person goes to the landfill each day</td></tr>
+<tr><td>Water</td><td></td></tr>
+<tr><td>Air</td><td></td></tr>
+<tr><td>Noise</td><td></td></tr>
+<tr><td>Light</td><td></td></tr>
+</table>
+
+
+</body>
+</html>
 ```
 
 ## Details

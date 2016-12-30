@@ -116,6 +116,7 @@ It sounds like a lot, but this is the best way to work on your files!
 * https://cordova.apache.org
 
 ## Practice!
+
 Want some extra practice?  Check out these sites:
 * http://dash.generalassemb.ly 
 * http://codepen.io
