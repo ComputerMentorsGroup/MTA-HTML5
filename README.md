@@ -60,36 +60,36 @@ It sounds like a lot, but this is the best way to work on your files!
 # Outline
 
 ## Week One
-Basic HTML tags
+* Basic HTML tags
 
 ## Week Two
-More HTML tags
-Inline Styling
-Video and Audio
-Images
+* More HTML tags
+* Inline Styling
+* Video and Audio
+* Images
 
 ## Week Three
-CSS Style Sheets
-Classes and IDs
-Working with DIVs
-Semantic Elements
+* CSS Style Sheets
+* Classes and IDs
+* Working with DIVs
+* Semantic Elements
 
 ## Week Four
-Tables
-Lists
-Inputs
-Forms
-More CSS features
+* Tables
+* Lists
+* Inputs
+* Forms
+* More CSS features
 
 ## Week Five
-Advanced CSS
-Flexbox
-Media Queries
+* Advanced CSS
+* Flexbox
+* Media Queries
 
 ## Week Six
-Keyframes Animation using CSS
-Animation using Canvas
-Animation using SVG
+* Keyframes Animation using CSS
+* Animation using Canvas
+* Animation using SVG
 
 ## Week Seven
 JavaScript
