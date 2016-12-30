@@ -99,6 +99,10 @@ It sounds like a lot, but this is the best way to work on your files!
 * Application Life Cycle
 * Validating your Web App
 
+## Week Ten
+* Time to start studying!  Create an account on MeasureUp.com 
+* Your mentor will have a code so you may begin practice-testing anywhere you go!
+
 
 # Continue Learning
 
@@ -108,6 +112,8 @@ It sounds like a lot, but this is the best way to work on your files!
 * http://brackets.io
 * https://www.sublimetext.com/
 * https://notepad-plus-plus.org
+* http://phonegap.com
+* https://cordova.apache.org
 
 ## Practice!
 Want some extra practice?  Check out these sites:
