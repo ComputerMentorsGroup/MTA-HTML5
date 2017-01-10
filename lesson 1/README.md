@@ -25,7 +25,7 @@ In Lesson one you will learn basic HTML5 tags to create a structure and content 
 * Must include at least two character entities
 
 
-```HTML5
+```html
 <!doctype html>
 <html>
     <head>
@@ -77,7 +77,7 @@ the website address between quotes, and the text you'd like to display (the "Cli
 
 Solve problems found in the code below:
 
-```HTML5
+```html
 <!doctype html> 
 <html>  
   <head>    
