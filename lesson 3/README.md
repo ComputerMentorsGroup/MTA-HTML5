@@ -20,7 +20,7 @@ pages as created in previous lessons.
 * Set an ID to any element and create a link to it in the NAV area
 * Pick a font you love and assign it as a font-family to at least your header
 
-```HTML5
+```HTML
 
 <!doctype html> 
 <html> 
@@ -142,7 +142,7 @@ pages as created in previous lessons.
 
 Solve the problems in the code below. 
 
-```HTML5
+```HTML
 <!doctype html>
 <html>
 	<head>

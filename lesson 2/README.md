@@ -25,7 +25,7 @@ Lesson two introduces a few more HTML tags and what is known as *inline styling*
 * Must include at least one character entity
 * Must include at least one video OR audio file
 
-```HTML5
+```HTML
 <!doctype html>
 <head>
 	<title>My First Company Website</title>
@@ -121,7 +121,7 @@ Sorry, Your browser does not support HTML5 videos.
 
 Solve the problems found in the code below.
 
-```HTML5
+```HTML
 <!doctype html>
 	<head>
 		<title>Willy Wonka's Chocolate Factory</title>
