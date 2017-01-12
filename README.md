@@ -13,6 +13,8 @@ So how's this work? You have three options:
 1. Download the entire lessons package as a zip (not recommended, but easy!  You just won't have the latest stuff.)
 2. Copy/Paste the pieces of code you need into your own text editor.
 3. Use GitHub to fork your own versions and create a live website.
+4. Complete Challenges by enrolling in the virtual classroom: https://repl.it/classroom/invite/CJuYkDU
+5. Receive an invite link from a mentor to C9.io
 
 ## Getting Started with GitHub
 You will need to download and install the following:
