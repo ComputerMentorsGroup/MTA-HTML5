@@ -19,7 +19,7 @@ So how's this work? You have three options:
 ## Getting Started with GitHub
 You will need to download and install the following:
 * https://code.visualstudio.com/
-* https://git-for-windows.github.io/
+* https://git-scm.com/download/win
 
 1. Create a GitHub Account
 2. Go to https://github.com/ComputerMentorsGroup/MTA-HTML5 
