@@ -43,6 +43,30 @@ In Lesson 4 you will learn how to create and modify tables and lists.
 <tr><td>Light</td><td></td></tr>
 </table>
 
+ 
+ <h2>Things You Can Do</h2> 
+  <ul>
+    <li> Recyle</li>
+    <li> Avoid buing cars with high O2 emission</li>
+    <li> Carpool when possible</li>
+    <li> Dispose of trash in proper pulblic recepticle</li>
+    <li> Turn off lights not in use</li>
+  </ul>
+  
+  <h2>Where Does Your Garbage Go?</h2>
+    <ol>
+    <li> Your trash can gets full</li>
+    <li> You take it to the curb</li>
+    <li> Garbage man comes around and takes it </li>
+    <li> He takes it to a transfer station before it goes to either:</li>
+      		<ul>
+            	<li>A landfill</li>
+                <li>An incinerator</li>
+                <li>Or a recyling center</li>
+            </ul>
+      
+  </ol>
+  
 
 </body>
 </html>
