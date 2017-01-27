@@ -67,6 +67,17 @@ In Lesson 4 you will learn how to create and modify tables and lists.
       
   </ol>
   
+  <h3> Sign Up for Our Newsletter</h3>
+  <h4>For bi-weekly updates on environmental news</h4>
+
+  <form method="POST" action="http://formspree.io/YOUREMAILHERE">
+  <input type="email" name="email" placeholder="Your email"> 
+    <br />
+     <br />
+  <textarea name="message" placeholder="Tell Us How Awesome We Are"></textarea>
+  <button type="submit">Send</button>
+</form>
+  
 
 </body>
 </html>
