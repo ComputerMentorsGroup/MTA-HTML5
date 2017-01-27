@@ -49,7 +49,7 @@ In Lesson 4 you will learn how to create and modify tables and lists.
     <li> Recyle</li>
     <li> Avoid buing cars with high O2 emission</li>
     <li> Carpool when possible</li>
-    <li> Dispose of trash in proper pulblic recepticle</li>
+    <li> Dispose of trash in proper public recepticle</li>
     <li> Turn off lights not in use</li>
   </ul>
   
