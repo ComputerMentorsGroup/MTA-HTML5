@@ -119,47 +119,4 @@ Sorry, Your browser does not support HTML5 videos.
 
 # Challenge 2
 
-Solve the problems found in the code below.
-
-```HTML
-<!doctype html>
-	<head>
-		<title>Willy Wonka's Chocolate Factory</title>
-	</head>
-
-<body>
-	<h1 style="color: LightGrey">Willy Wonka and the Chocolate Factory</h1>
-
-<video
-width="500px" height="400px" controls="controls">
-<source src="assets/willywonka">
-<source src="assets/willywonka.ogv">
-Sorry - HTML5 videos are not supported on your device.
-</video>
-
-<figure>
-<img src="assets/wonkabar1.jpg">
-<img src="assets/wonkagobstopper.jpg">
-
-<figcaption>Willy Wonka Candy Company</figcaption>
-</figure>
-
-<img src="assets/wonkalaffy.jpg" style="height: 10%; width: 10%;">
-	
-<audio loop="loop" autoplay="autoplay" controls="controls">
-<source src="assets/alert.mp3">
-<source src="assets/alert.ogg">
-Sorry, HTML5 Audio clips are not supported on your device.
-</audio>
-
-</body>
-</html>
-```
-
-* CRITERIA:
-    * Why won't the video file play?
-    * The Willy Wonka Chocolate bar is gigantic!  Fix it!
-    * The LaffyTaffy picture should be next to the other candy, NOT underneath. Find the easiest fix for this?
-    * Also, the LaffyTaffy picture should not be so small. Find out why it got shrunk and fix it please. 
-    * Make the audio file stop looping
-    * Why is the header "Willy Wonka and the Chocolate Factory" light grey? Make it any other color.
+Check the Lesson 2 Challenge on Repl.it: https://repl.it/classroom/invite/CJuYkDU
