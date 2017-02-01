@@ -75,36 +75,4 @@ the website address between quotes, and the text you'd like to display (the "Cli
 
 # Challenge 1
 
-Solve problems found in the code below:
-
-```html
-<!doctype html> 
-<html>  
-  <head>    
-    <meta charset="UTF-8">     
-    <title>Internal</title>  
-  </head>
-<body> 
-  <h1>Staff Meeting</h1> 
-  <img src="assets/cologo" olt="Company logo" /> 
-  <p>Report to the <strong>Blue Conference Room</strong> at <strong>10:00 a.m.</strong> on <strong>Thursday</strong>
-    <strong>for an emergency staff meeting.</strong></p> 
-  
-  <h3>Meeting Agenda<h3>
-   
-  <p><strong>For the meeting agenda, please click the link below:</strong></p>
-  <p><a "http://computermentors.org/">Agenda Link </a> </p>
-
-</body> 
-</html>
-```
-
-* CRITERIA:
-    * The logo should appear.
-    * Alternative text "Company Logo" for the logo image.
-    * The words "for an emergency staff meeting" should no longer be bold.
-    * The text "For the meeting agenda, please click the link below:" should be italic, not bold.
-    * The text "Agenda Link" should be linked properly
-    * "Meeting Agenda" should be same size as "Staff Meeting"
-
-
+Check the Lesson 1 Challenge on Repl.it: https://repl.it/classroom/invite/CJuYkDU
