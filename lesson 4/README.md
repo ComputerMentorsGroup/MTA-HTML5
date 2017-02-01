@@ -95,5 +95,4 @@ Details about what the code above goes here
 # Challenge 4
 
 Check out this lesson's challenge on Repl.it:
-<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/classroom/7922/6e0805ab380f87a17057dc01d4d52a5a"></iframe>
-
+https://repl.it/classroom/invite/CJuYkDU
