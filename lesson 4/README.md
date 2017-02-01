@@ -92,15 +92,9 @@ Details about what the code above goes here
     * Keywords should be *italicized*
 
 
-# Challenge Num
+# Challenge 4
 
-A challenge relating to the original sample code should go here.
+Check out this lesson's challenge on Repl.it:
+https://repl.it/data/lti/classrooms/7922
 
-```HTML5
-// Sample code should that demonstrates what should be taught in this lesson should go here
-```
 
-* CRITERIA
-    * item
-    * item
-    * item
