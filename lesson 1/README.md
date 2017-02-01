@@ -33,11 +33,11 @@ In Lesson one you will learn basic HTML5 tags to create a structure and content 
     </head>
     <body>
         <h1>Pet Care</h1>
-        <img src="assets/dog.jpg">
+        <img src="assets/dog.jpg" />
         <p>Your dog is a friend for life. Why not provide the best care possible?</p>     
         <p>Make sure your pet has plenty of <i><b>fresh water</b></i> during hot weather.</p>
-          <p><a href="http://www.google.com">Click here for more information</a></p>
-  <br/>
+        <p><a href="http://www.google.com">Click here for more information</a></p>
+        <br/>
   &copy; Student Name 2017
     </body>
 </html>
@@ -69,7 +69,7 @@ the website address between quotes, and the text you'd like to display (the "Cli
     * Another self-closing tag, this is a **line break**.  If you did not need a new paragraph, but simply wanted to insert a new line, use this command.
 * `<p></p>`
     * Paragraph tags wrap around blocks of text.  Each paragraph will have a space between the next paragraph.
-* `$copy;` and other character entities
+* `&copy;` and other character entities
     * **Character Entities** are a cool way to use icons on your site.  They begin with the & symbol and end with the ; symbol.  Check out all the different character entities and their code here -https://dev.w3.org/html5/html-author/charref
 
 
@@ -100,9 +100,9 @@ Solve problems found in the code below:
 ```
 
 * CRITERIA:
-    * When hovering over the image the text "Company Logo" should pop up.
-    * The words "for an emergency staff meeting" should no longer be bold.
     * The logo should appear.
+    * Alternative text "Company Logo" for the logo image.
+    * The words "for an emergency staff meeting" should no longer be bold.
     * The text "For the meeting agenda, please click the link below:" should be italic, not bold.
     * The text "Agenda Link" should be linked properly
     * "Meeting Agenda" should be same size as "Staff Meeting"
