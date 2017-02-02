@@ -10,33 +10,35 @@ Welcome to the Teen Tech web track!  We have a few tips to help you get started 
 ## Get started
 So how's this work? You have three options:
 
-1. Download the entire lessons package as a zip (not recommended, but easy!  You just won't have the latest stuff.)
-2. Copy/Paste the pieces of code you need into your own text editor.
-3. Use GitHub to fork your own versions and create a live website.
-4. Complete Challenges by enrolling in the virtual classroom: https://repl.it/classroom/invite/CJuYkDU
-5. Receive an invite link from a mentor to C9.io
+1. Choose a text editor!  If you're just beginning, you may start with Notepad, which comes on all Windows computers.
+2. Copy/Paste the code portion of a Lesson into your text editor.
+3. Complete Challenges by enrolling in the virtual classroom: https://repl.it/classroom/invite/CJuYkDU
+
+
 
 ## Getting Started with GitHub
+Eventually, you may want to get your site on GitHub!  A fun way to integrate GitHub and Microsoft Visual Studio Code (a great text editor) is using the following steps.
+
 You will need to download and install the following:
 * https://code.visualstudio.com/
 * https://git-scm.com/download/win
 
-1. Create a GitHub Account
-2. Go to https://github.com/ComputerMentorsGroup/MTA-HTML5 
-3. Click "FORK" at the top right
-4. In settings, rename the repository to *yourusername*.**github.io**
-    4. This step makes your repository a living website!  You can visit yourusername.github.io to see your site.
-    4. For it to work properly, index.html will need to be in the root folder 
-4. Within your new repository, copy the CLONE/DOWNLOAD web address (right side)
-4. Open Git GUI
-5. "Clone Existing Repository"
-6. Paste the web address (from step 4) into SOURCE
-7. Under target, you'll pick where you want the files to be stored on your laptop. **Let it create the folder for you!**
-8. Open Visual Studio Code
-9. Click File - Open folder
-10. Open your new folder which should have all the lessons in it
-11. Modify the files as needed.
-12. When you are finished modifying any files:
+1. Create a GitHub Account (http://www.github.com)
+2. Create a new repository with the following format: username.github.io
+3. MAKE SURE YOU REPLACE "username" with YOUR actual username!
+4. Check the box that says "Initialize with a readme"
+5. Within Windows, Open Git GUI
+6. Create a new repository
+7. Pick a location on your computer you'd like to store these files **Let it create the folder for you!**
+
+Configure Visual Studio Code:
+1. Open Visual Studio Code
+2. Hold CTRL SHIFT P
+3. ext install vscode-github
+4. Click File - Open folder
+5. Open your new folder
+6. Modify the files as needed.
+7. When you are finished modifying any files:
     * Save
     * Click on the Git icon (or Ctrl Shift G)
     * Type a brief summary of what you did (ex: lesson1 or challenge1) at the top of the Git panel
