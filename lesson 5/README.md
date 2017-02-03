@@ -6,7 +6,7 @@ Flexbox refers to a layout that can be applied to a container in html, like divs
 Now flexboxes can get pretty confusing when its just you reading text so to help teach you how to direct flexboxes we will call upon the help of some frogs. 
 
 Open the link below in another tab to begin. You will complete all 24 lessons but we will provide some tips here for you to come back to if it seems too confusing
->>>> http://flexboxfroggy.com/ <<<<
+<h2> http://flexboxfroggy.com/ </h2>
 
 We will also cover more CSS techniques and Media Queries. 
 
