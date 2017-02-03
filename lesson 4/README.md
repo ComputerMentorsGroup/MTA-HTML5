@@ -86,11 +86,54 @@ In Lesson 4 you will learn how to create and modify tables and lists.
 ## Details
 Details about what the code above goes here
 
-* `Each line of code should be bulleted here`
-    * A bulleted list of things about the line above should go here
+* `<table> </table>`
+    * Tables are used for organizing data and providing a layout for emails
+    * Tables are **not** to be used to styling websites other than to represent data
     * **Really important stuff should be bold like this**
     * Keywords should be *italicized*
+    
+* `<th> </th>`
+   * Table heading, or TH, is used to define a title for your table.
+   * The table heading spans across all columns.
 
+* `<tr> </tr>`
+   * Nested within the table element, use the `<tr> </tr>` tags to define a row.
+   * Rows are horizontal.
+   * **TR** stands for TABLE ROW
+
+* `<td> </td>`
+   * Nested within the table row elements, use the `<td> </td>` tags to define cells which contain table data.
+   * Cells are boxes, like in excel, that hold information.
+   * **TD** stands for TABLE DATA
+   
+   Example:
+   `<table>
+   <th>This is my table heading!</th>
+   <tr><td>Row 1, Column 1</td> <td>Row 1, Column 2</td></tr>
+   <tr><td>Row 2, Column 1</td> <td>Row 2, Column 2</td></tr>
+   </table>`
+   
+**Table Row must be nested (contained) within the table.  Table Data is also nested, within the Table Row.**
+   
+* `<ul> </ul>`
+   * List items nested within UL tags uses bullets, or graphics to represent each list item.
+   * UL stands for UNORDERED LIST
+
+* `<ol> </ol>`
+   * List items nested within OL tags are represented using numbers.
+   * OL stands for ORDERED LIST (Number order!)
+
+* `<li> </li>`
+   * Once you've established whether you want to make a bulleted list or numbered list, each item must be wrapped within LI tags.
+   * LI stands for List Item.
+
+* `<form method="" action=""> </form>`
+
+* `<input type="" name="" placeholder=""> </input>`
+
+* `<textarea name=""></textarea>`
+
+* `<button type=""></button>`
 
 # Challenge 4
 
