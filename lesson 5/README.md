@@ -25,7 +25,16 @@ Tips and help for Flexboxfroggy
 
 * `Levels 1-4`
     * Notice **justify-content** handles the horizontal componant of how and where the space is arranged
- 
+    
+* `Levels 5-7`
+    * **align-content** on the other hand handles the vertical componant.
+    * Combining these first 2 properties should be intuative.
+  
+* `Levels 8-13`
+    * **flex-direction** alters the order of the items in the flexbox
+    * Notice that reversing the order mirrors the items, such that **flex-end** now pushing the items to the far left not right anymore.
+  
+  
 
 
 # Challenge Num
