@@ -32,7 +32,14 @@ Tips and help for Flexboxfroggy
   
 * `Levels 8-13`
     * **flex-direction** alters the order of the items in the flexbox
-    * Notice that reversing the order mirrors the items, such that **flex-end** now pushing the items to the far left not right anymore.
+    * Notice that reversing the order mirrors the items, such that **flex-end** now pushes the items to the far left not right anymore.
+    
+* `Levels 14-17`
+    * Here you learn how to manipulate a specific item(s) 
+    * Remember that **order** assums the initial position of every item to be zero, thus moving the items is like moving them along a number line.
+ 
+* Level 24
+    * If you're having difficulty with the last level, try to begin by arranging the items in the right orientation first (vertically).
   
   
 
