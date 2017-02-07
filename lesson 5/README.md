@@ -23,7 +23,7 @@ We will also cover more CSS techniques and Media Queries.
 ## Details
 Tips and help for Flexboxfroggy
 
-* `Each line of code should be bulleted here`
+* `Levels 1-4`
     * A bulleted list of things about the line above should go here
     * **Really important stuff should be bold like this**
     * Keywords should be *italicized*
