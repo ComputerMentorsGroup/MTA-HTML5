@@ -24,9 +24,8 @@ We will also cover more CSS techniques and Media Queries.
 Tips and help for Flexboxfroggy
 
 * `Levels 1-4`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
+    * Notice **justify-content** handles the horizontal componant of how and where the space is arranged
+ 
 
 
 # Challenge Num
