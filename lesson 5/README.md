@@ -38,7 +38,7 @@ Tips and help for Flexboxfroggy
     * Here you learn how to manipulate a specific item(s) 
     * Remember that **order** assums the initial position of every item to be zero, thus moving the items is like moving them along a number line.
  
-* Level 24
+* `Level 24`
     * If you're having difficulty with the last level, try to begin by arranging the items in the right orientation first (vertically).
   
   
