@@ -73,4 +73,4 @@ body {
 * CRITERIA
     * You need to use a flexbox so that new content you add to the container displays at the top of the list.  Do not assign an order.
     * Fix the CSS Flex Direction to properly flip your list.
-    * Find this assignment at: https://repl.it/data/lti/assignments/34426
+    * Find this assignment at Challenge 5: https://repl.it/classroom/invite/CJuYkDU
