@@ -5,9 +5,9 @@ In Lesson Num you will learn Advanced CSS topics, especially as they relate to t
 ### Instructions
 1. Open Notepad, or your favorite text editor.
 2. Save the file as greetings.html
-3. Open a second Notepad Window
+3. Open a second Notepad window, or your favorite text editor.
 4. Save the second window as style.css
-5. Using the example below, reproduce the webpage with your own content to create a greeting card for any occasion of your choice.
+5. Using the example below, reproduce the web page with your own content to create a greeting card for any occasion of your choice.
 
 **Need an idea?  Pick from these greetings:**
 * Birthday Card
@@ -47,6 +47,164 @@ Use the following code for greeting.html file:
    </div>
 </body>
 </html>
+```
+
+Save the following code for the style.css file:
+```HTML5
+body {
+	background: #eeeeee;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, .4), rgba(0, 100, 200, .5)) no-repeat;
+	height: 250px;
+	}
+
+.container {
+	text-align:center;
+	}
+
+.greeting {
+	margin: 0 auto;
+	padding: 20px;
+	background: tomato;
+	width: 400px;
+	height: 220px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 72pt;
+	text-align: center;
+	color: #ffffff;
+	animation: spin 8s ease 1;
+	-o-animation: spin 8s ease 1;
+	-webkit-animation: spin 8s ease 1;
+	-moz-animation: spin 8s ease 1;
+	border-radius: 5px;
+	border: 10px double white;
+	opacity: 1;
+}
+
+
+.message {
+	margin: 1em 0 0 0;
+	padding: 0 0 1em 0;
+	font-family: Century Gothic;
+	font-size: 40pt;
+	animation: colors 4s infinite alternate;
+}
+
+
+/* Spinning Flipcard Keyframes */
+
+@keyframes spin {
+	from {
+		transform: rotate3d(0, 1, 1, 90deg) scale(.5, .5) rotate(360deg);
+		opacity: .2;
+	}
+	to {
+		transform: rotate3d(0, 1, 1, 360deg) scale(1, 1);
+		opacity: 1;
+	}
+}
+
+
+@-o-keyframes spin {
+	from {
+		transform: rotate3d(0, 1, 1, 90deg) scale(.5, .5) rotate(360deg);
+		opacity: .2;
+	}
+	to {
+		transform: rotate3d(0, 1, 1, 360deg) scale(1, 1);
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes spin {
+	from {
+		transform: rotate3d(0, 1, 1, 90deg) scale(.5, .5) rotate(360deg);
+		opacity: .2;
+	}
+	to {
+		transform: rotate3d(0, 1, 1, 360deg) scale(1, 1);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes spin {
+	from {
+		transform: rotate3d(0, 1, 1, 90deg) scale(.5, .5) rotate(360deg);
+		opacity: .2;
+	}
+	to {
+		transform: rotate3d(0, 1, 1, 360deg) scale(1, 1);
+		opacity: 1;
+	}
+}
+
+
+/* Slide-In Message */
+
+@keyframes colors {
+	0% {
+		opacity: .5;
+		color: blue;
+	}
+	
+	50%  {
+		color: green;
+		opacity: .5;
+	}
+	100% {
+		opacity: .5;
+		color: red;
+	}
+}
+
+@-webkit-keyframes colors {
+	0% {
+		opacity: .5;
+		color: blue;
+	}
+	
+	50%  {
+		color: green;
+		opacity: .5;
+	}
+	100% {
+		opacity: .5;
+		color: red;
+	}
+}
+
+@-moz-keyframes colors {
+	0% {
+		opacity: .5;
+		color: blue;
+	}
+	
+	50%  {
+		color: green;
+		opacity: .5;
+	}
+	100% {
+		opacity: .5;
+		color: red;
+	}
+}
+
+@-o-keyframes colors {
+	0% {
+		opacity: .5;
+		color: blue;
+	}
+	
+	50%  {
+		color: green;
+		opacity: .5;
+	}
+	100% {
+		opacity: .5;
+		color: red;
+	}
+}
+
+
 ```
 
 ## Details
