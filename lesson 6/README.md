@@ -138,7 +138,7 @@ body {
 }
 
 
-/* Slide-In Message */
+/* Color Changing Message */
 
 @keyframes colors {
 	0% {
