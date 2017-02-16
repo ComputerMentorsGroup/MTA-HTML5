@@ -207,8 +207,36 @@ body {
 
 ```
 
-## Details
-Details about what the code above goes here
+## About the Code
+
+### KeyFrames
+* `@keyframes` 
+	* This is used in the CSS File to creates the animation
+	* Usually you'd specify the name of the animation you'd like to create, such as: `@keyframes spin { }`
+	* Within the brackets, define your animation:
+	`@keyframes a1 { from {background: limegreen;}  to {background: dodgerblue;} }`
+	* To increase compatibility across all browsers, you may want have the same code written multiple times using VENDOR PREFIXES such as:
+	* Opera: `@-o-keyframes`
+	* Firefox: `@-moz-keyframes`
+	* Chrome/Safari: `@-webkit-keyframes`
+	* Microsoft: `@-ms-keyframes`
+	
+* `animation` 
+	* Use this in the CSS for the object you'd like to animate.
+	* This is a shorthand property used to specify all the animation properties at once.
+	* Example:
+	` div {width: 200px; height: 200px; background: limegreen; animation: a1 3s;}`
+	* The animation properties can be specified in the following order:
+	`animation: name duration timing-function delay iteration-count direction fill-mode play-state;`
+* `animation-name` 
+* `animation-duration` 
+* `animation-timing-function` 
+* `animation-delay` 
+* `animation-iteration-count` 
+* `animation-fill-mode` 
+* `animation-direction`
+* `animation-play-state` 
+	
 
 * `Each line of code should be bulleted here`
     * A bulleted list of things about the line above should go here
