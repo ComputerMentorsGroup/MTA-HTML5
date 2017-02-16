@@ -73,12 +73,12 @@ It sounds like a lot, but this is the best way to work on your files!
 * More CSS features
 
 ## Week Five
-* Advanced CSS
+* Media Queries
 * Flexbox
     * Flexbox Frogger
-* Media Queries
 
 ## Week Six
+* Advanced CSS
 * Keyframes Animation using CSS
 * Animation using Canvas
 * Animation using SVG
