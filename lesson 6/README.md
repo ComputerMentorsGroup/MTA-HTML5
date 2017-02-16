@@ -86,3 +86,5 @@ Details about what the code above goes here
 </body>
 </html>
 ```
+
+Complete Challenge 6 on Repl.it: https://repl.it/classroom/invite/CJuYkDU
