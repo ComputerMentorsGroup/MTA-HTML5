@@ -32,12 +32,32 @@ Details about what the code above goes here
     * Keywords should be *italicized*
 
 
-# Challenge Num
+# Challenge 6
 
-A challenge relating to the original sample code should go here.
+What would you change in the CSS file to make the red box move up?
 
 ```HTML5
-// Sample code should that demonstrates what should be taught in this lesson should go here
+<html>
+<style>
+   #boxStyle {
+   -ms-animation-name: moveUp;
+   -ms-animation-duraction: 5s;
+   width: 400px;
+   height: 50px;
+   position: relative;
+   left: 0px;
+   top: 0px;
+   }
+   
+   @-ms-keyframes moveUp {
+   0% {}
+   100% { top: 0px; }
+   }
+</style>
+
+<body>
+<div id="boxStyle">Hello!</div>
+</body>
 ```
 
 * CRITERIA
