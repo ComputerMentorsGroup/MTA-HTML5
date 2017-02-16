@@ -9,7 +9,7 @@ In Lesson Num you will learn Advanced CSS topics, especially as they relate to t
 4. Save the second window as style.css
 5. Using the example below, reproduce the webpage with your own content to create a greeting card for any occasion of your choice.
 
-**Need an idea?  Pick from these prompts:**
+**Need an idea?  Pick from these greetings:**
 * Birthday Card
 * Thinking of You
 * Christmas Card
@@ -17,8 +17,8 @@ In Lesson Num you will learn Advanced CSS topics, especially as they relate to t
 * Thank You
 
 **Criteria for the Lesson 6 webpage:**
-* Create a Greeting that uses any transform effect.
-* Use a message that uses keyframe animations.
+* Create a greeting that uses any transform effect.
+* Create a message that uses keyframe animations.
 * Include one additional element you've learned previously (such as video, audio, lists, tables, buttons, links, etc)
 * Have two separate files, one for HTML and another for CSS
 
