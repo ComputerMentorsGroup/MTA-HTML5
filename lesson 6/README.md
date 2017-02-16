@@ -211,32 +211,68 @@ body {
 
 ### KeyFrames
 * `@keyframes` 
-	* This is used in the CSS File to creates the animation
-	* Usually you'd specify the name of the animation you'd like to create, such as: `@keyframes spin { }`
+	* This is used in the CSS File to create the animation
+	* Specify the name of the animation you'd like to create, such as: `@keyframes spin { }`
 	* Within the brackets, define your animation:
 	`@keyframes a1 { from {background: limegreen;}  to {background: dodgerblue;} }`
-	* To increase compatibility across all browsers, you may want have the same code written multiple times using VENDOR PREFIXES such as:
+	*In the example above, the a1 animation changes the background from limegreen to dodgerblue for whichever element is ends up being assigned to.*
+	
+	* To improve compatibility across all browsers, the same code is written multiple times using VENDOR PREFIXES such as:
 	* Opera: `@-o-keyframes`
 	* Firefox: `@-moz-keyframes`
 	* Chrome/Safari: `@-webkit-keyframes`
 	* Microsoft: `@-ms-keyframes`
 	
 * `animation` 
-	* Use this in the CSS for the object you'd like to animate.
+	* Use this in CSS properties list for the element you'd like to animate.
 	* This is a shorthand property used to specify all the animation properties at once.
 	* Example:
-	` div {width: 200px; height: 200px; background: limegreen; animation: a1 3s;}`
-	* The animation properties can be specified in the following order:
-	`animation: name duration timing-function delay iteration-count direction fill-mode play-state;`
+` div {width: 200px; height: 200px; background: limegreen; animation: a1 3s;}`
+*All divs will be 200x200px in dimension and will change according to how @keyframe a1 is defined.*
+	* Animation properties are specified in the following order:
+`animation: name duration timing-function delay iteration-count direction fill-mode play-state;`
+
 * `animation-name` 
-* `animation-duration` 
-* `animation-timing-function` 
-* `animation-delay` 
-* `animation-iteration-count` 
-* `animation-fill-mode` 
-* `animation-direction`
-* `animation-play-state` 
+	* Name the animation anything you want when defining the @keyframes
+	* Call the animation using its name in the properties for the element you want to animate
 	
+* `animation-duration` 
+	* How long will the animation run?
+	* Defined in seconds (s) or milliseconds (ms).
+	* Example:
+`div {animation: spin 3s;}`
+
+* `animation-timing-function` 
+	* Specifies the animation progression.
+	* Linear goes straight through one cycle
+	* Ease is a linear path, but it starts slow.  Ease-in and Ease-out are available as well.
+	
+* `animation-delay` 
+	* How long should it take for the animation to begin?
+	* Defined in seconds (s) or milliseconds (ms)
+	
+* `animation-iteration-count` 
+	* How many times should the animation run?
+	* Use a number or `infinite`
+	
+* `animation-fill-mode` 
+	* Does the animation maintain it's state at the end? (forwards)
+	* Or should the animation go back to its start? (backwards)
+	* None: Does not apply any styles after execution
+	
+* `animation-direction`
+	* Reverse:  The animation plays in reverse
+	* Alternate: The animation plays normal, then runs backwards through the progression.  Runs normal every odd pass, reverse every even pass.
+	* Altenate-Reverse: The animation runs as normal every even pass, then reverse every odd pass
+	* Normal: play as normal
+	
+* `animation-play-state` 
+	* Paused
+	* Running - Default Value
+	* JAVASCRIPT can be used to toggle an animation playstate.
+
+
+### Transforms
 
 * `Each line of code should be bulleted here`
     * A bulleted list of things about the line above should go here
