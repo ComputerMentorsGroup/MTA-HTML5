@@ -5,7 +5,9 @@ In Lesson Num you will learn Advanced CSS topics, especially as they relate to t
 ### Instructions
 1. Open Notepad, or your favorite text editor.
 2. Save the file as greetings.html
-3. Using the example below, reproduce the webpage with your own content to create a greeting card for any occasion of your choice.
+3. Open a second Notepad Window
+4. Save the second window as style.css
+5. Using the example below, reproduce the webpage with your own content to create a greeting card for any occasion of your choice.
 
 **Need an idea?  Pick from these prompts:**
 * Birthday Card
@@ -15,12 +17,36 @@ In Lesson Num you will learn Advanced CSS topics, especially as they relate to t
 * Thank You
 
 **Criteria for the Lesson 6 webpage:**
-* .
-* .
-* .
+* Create a Greeting that uses any transform effect.
+* Use a message that uses keyframe animations.
+* Include one additional element you've learned previously (such as video, audio, lists, tables, buttons, links, etc)
+* Have two separate files, one for HTML and another for CSS
 
+Use the following code for greeting.html file:
 ```HTML5
-// Sample code should that demonstrates what should be taught in this lesson should go here
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Merry Christmas Greeting Card</title>
+   <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+	   <div class="greeting">Merry Christmas</div>
+	   <div class="message">With Love, <br/> The Frisco Family</div>
+
+	
+      <audio autoplay controls id="winterSong"> 
+         <source src="http://mfrisco.github.io/winter16/assets/we-wish-you-a-merry-christmas.mp3">
+         <source src="http://mfrisco.github.io/winter16/assets/we-wish-you-a-merry-christmas.ogg">
+	      Your browser does not support audio for this webpage!
+		</audio>
+   </div>
+</body>
+</html>
 ```
 
 ## Details
