@@ -249,7 +249,12 @@ Details about what the code above goes here
    padding: 1em;
    }
 
-   @-ms-keyframes moveUp {
+   @-moz-keyframes moveUp {
+   0% { }
+   100% { top: 0px; }
+   }
+   
+   @-o-keyframes moveUp {
    0% { }
    100% { top: 0px; }
    }
