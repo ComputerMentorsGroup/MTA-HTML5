@@ -12,13 +12,7 @@ We will also cover more CSS techniques and Media Queries.
 
 ### Instructions
 1. Complete all 24 levels at http://flexboxfroggy.com/
-2. Modi
 
-
-
-```HTML5
-// Sample code should that demonstrates what should be taught in this lesson should go here
-```
 
 ## Details
 Tips and help for Flexboxfroggy
@@ -44,15 +38,39 @@ Tips and help for Flexboxfroggy
   
 
 
-# Challenge Num
+# Challenge 5
 
-A challenge relating to the original sample code should go here.
+1. In your favorite text editor create a div with the class name "myFlexbox".  
+2. Nested within the new div you created, make a list.  The list should be an ORDERED or UNORDERED list - does not matter which one! 
+3. Apply the CSS styling below:
 
 ```HTML5
-// Sample code should that demonstrates what should be taught in this lesson should go here
+body {
+    background: #def;
+}
+
+.myFlexbox ul { 
+    display: flex;      
+    flex-direction: column;
+    width: 200px;
+  }   
+  
+  li {
+      background-color: #0f9;
+      margin: 10px;
+      padding: 10px;
+      border: 0px solid #000;
+      font-family: 'Caveat Brush', cursive;
+      font-size: 30pt;
+      list-style: square;
+  }
+ 
+ li:hover {
+     background-color: #0ff;
+ } 
 ```
 
 * CRITERIA
-    * item
-    * item
-    * item
+    * You need to use a flexbox so that new content you add to the container displays at the top of the list.  Do not assign an order.
+    * Fix the CSS Flex Direction to properly flip your list.
+    * Find this assignment at: https://repl.it/data/lti/assignments/34426
