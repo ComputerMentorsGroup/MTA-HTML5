@@ -34,9 +34,16 @@ Details about what the code above goes here
 
 # Challenge 6
 
-What would you change in the CSS file to make the red box move up?
+ What would you change in the CSS file to animate the red box to move up? 
 
 ```HTML5
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>repl.it</title>
+</head>
 <html>
 <style>
    #boxStyle {
@@ -46,12 +53,16 @@ What would you change in the CSS file to make the red box move up?
    -webkit-animation-duration: 5s;
    animation-name: moveUp;
    animation-duration: 5s;
-   width: 400px;
-   height: 50px;
+   width: 200px;
+   height: 20px;
    position: relative;
    left: 0px;
    top: 0px;
    background-color: red;
+   text-align: center;
+   color: white;
+   font-family: arial;
+   padding: 1em;
    }
 
    @-ms-keyframes moveUp {
@@ -73,9 +84,5 @@ What would you change in the CSS file to make the red box move up?
 <body>
 <div id="boxStyle">Hello!</div>
 </body>
+</html>
 ```
-
-* CRITERIA
-    * item
-    * item
-    * item
