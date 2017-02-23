@@ -126,3 +126,10 @@ Want some extra practice?  Check out these sites:
 * http://codepen.io
 * http://codecademy.com
 * http://freecodecamp.com
+
+## Cheat Sheets
+* Canvas: http://cheatsheetworld.com/programming/html5-canvas-cheat-sheet/
+* HTML tags: http://www.hostingreviewbox.com/html5-cheat-sheet/
+* Character Entities: https://dev.w3.org/html5/html-author/charref
+* CSS: https://www.smashingmagazine.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf
+* JavaScript: http://marijnhaverbeke.nl/js-cheatsheet.html
