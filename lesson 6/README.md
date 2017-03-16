@@ -15,6 +15,7 @@ In Lesson Num you will learn Advanced CSS topics, especially as they relate to t
 * Christmas Card
 * Be My Valentine
 * Thank You
+* Or think of this as a start screen to a video game you're making.
 
 **Criteria for the Lesson 6 webpage:**
 * Create a greeting that uses any transform effect.
