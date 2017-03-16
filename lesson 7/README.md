@@ -111,6 +111,18 @@ In the HTML side only, put:
 </svg>
 ```
 
+### Description
+* The cx attribute defines the x coordinate of the center of the ellipse
+* The cy attribute defines the y coordinate of the center of the ellipse
+* The rx attribute defines the horizontal radius
+* The ry attribute defines the vertical radius
+* The id attribute of the `<linearGradient>` tag defines a unique name for the gradient
+* The x1, x2, y1,y2 attributes of the `<linearGradient>` tag define the start and end position of the gradient
+* The color range for a gradient can be composed of two or more colors. Each color is specified with a `<stop>` tag. The offset attribute is used to define where the gradient color begin and end
+* The fill attribute links the ellipse element to the gradient
+* The `<text>` element is used to add text
+
+
 For the full SVG Reference, visit: https://www.w3schools.com/graphics/svg_reference.asp
 
 
