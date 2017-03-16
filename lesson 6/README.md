@@ -275,11 +275,38 @@ body {
 
 ### Transforms
 
-* `Each line of code should be bulleted here`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
+* `transform: translate(100px, 50px);`
+    * This moves an element to the x and y coordinates specified.
 
+* `transform: rotate(125);`
+    * Rotates an element in 2D to 125 degrees (or any specified).  
+    
+* `transform: rotate3d(x,y,z,angle);`
+    * Rotates an element as if it is in a 3D space
+    * Elements will appear skewed or distorted as they mimick a 3D appearance
+        
+* `transform: scale(x,y);`
+    * Resizes an image or element (width, height)
+        
+* `transform: scale3d(x,y,z);`
+    * Resizes an image using width, height, and Z - which gives the appearance of moving in 3D space
+    
+ * `transform: skew(x-angle, y-angle);`
+    * Skews an element in 2D along the x-axis and y-axis  
+
+* `transform: translate3d(x,y,z);`
+    * Moves an element in 3D space
+   
+* `transform: translateX(x);`
+    * Move an element along the x axis
+
+* `transform: translateY(y);`
+    * Move an element along the y axis
+    
+* `transform: translateZ(z);`
+    * Move an element along the z axis
+  
+    
 
 # Challenge 6
 
