@@ -73,12 +73,11 @@ It sounds like a lot, but this is the best way to work on your files!
 * More CSS features
 
 ## Week Five
-* Media Queries
 * Flexbox
     * Flexbox Frogger
 
 ## Week Six
-* Advanced CSS
+* Media Queries
 * Keyframes Animation using CSS
 * Animation using Canvas
 * Animation using SVG
@@ -103,9 +102,6 @@ It sounds like a lot, but this is the best way to work on your files!
 * Application Life Cycle
 * Validating your Web App
 
-## Week Ten
-* Time to start studying!  Create an account on MeasureUp.com 
-* Your mentor will have a code so you may begin practice-testing anywhere you go!
 
 
 # Continue Learning
