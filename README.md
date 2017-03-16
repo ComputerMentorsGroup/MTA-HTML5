@@ -79,11 +79,11 @@ It sounds like a lot, but this is the best way to work on your files!
 ## Week Six
 * Media Queries
 * Keyframes Animation using CSS
-* Animation using Canvas
-* Animation using SVG
-* Canvas vs. SVG
 
 ## Week Seven
+* Drawing using SVG vs. Canvas
+
+## Week Eight
 * JavaScript
     * Alerts
     * Calculator
@@ -93,12 +93,12 @@ It sounds like a lot, but this is the best way to work on your files!
 * Web Worker
 * Cookies
 
-## Week Eight
+## Week Nine
 * Databases
 * Cloud 9
 * Basic SQL
 
-## Week Nine
+## Week Ten
 * Application Life Cycle
 * Validating your Web App
 
