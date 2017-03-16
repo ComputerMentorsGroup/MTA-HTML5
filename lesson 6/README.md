@@ -20,7 +20,7 @@ In Lesson Num you will learn Advanced CSS topics, especially as they relate to t
 **Criteria for the Lesson 6 webpage:**
 * Create a greeting that uses any transform effect.
 * Create a message that uses keyframe animations.
-* Include one additional element you've learned previously (such as video, audio, lists, tables, buttons, links, etc)
+* Include one additional element you've learned previously (such as video, images, audio, lists, tables, buttons, links, etc)
 * Have two separate files, one for HTML and another for CSS
 
 Use the following code for greeting.html file:
@@ -37,7 +37,7 @@ Use the following code for greeting.html file:
 <body>
    <div class="container">
 	   <div class="greeting">Merry Christmas</div>
-	   <div class="message">With Love, <br/> The Frisco Family</div>
+	   <div class="message">With Love, <br/> My Name</div>
 
 	
       <audio autoplay controls id="winterSong"> 
