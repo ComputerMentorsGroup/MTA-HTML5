@@ -151,10 +151,36 @@ For the full SVG Reference, visit: https://www.w3schools.com/graphics/svg_refere
 A challenge relating to the original sample code should go here.
 
 ```HTML5
-// Sample code should that demonstrates what should be taught in this lesson should go here
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>repl.it</title>
+</head>
+<body>
+<svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(50,150,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" style="stroke: #333; stroke-width: 10;" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
+</body>
+</html>
 ```
 
 * CRITERIA
-    * item
-    * item
-    * item
+1. The ellipse has fallen off the canvas!  Change the x coordinate to 100.
+2. Add a third gradient color stop to the ellipse (any color)
+3. Change the text (anything)
+4. Resize the Ellipse so your text fits in it
+5. Move the Ellipse x and y coordinates if needed.
+6. Move the text x and y coordinates if needed.
+7. Change the outline color or thickness (or both!)
+    
+Complete Challenge 7 on Repl.it: https://repl.it/classroom/invite/CJuYkDU
