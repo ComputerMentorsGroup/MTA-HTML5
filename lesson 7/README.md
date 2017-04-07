@@ -248,3 +248,5 @@ context.fillRect(2, 2, 100, 100);
 3. The Circle should have a radius of 45, not 60. (hint: Circles are made using arcs)
 4. The text should have the Font Family "Broadway".
 5. The text should also have a hexadecimal color of ef2545. (remember, hex colors require a # sign before the hex code) 
+
+Complete Challenge 7 on Repl.it: https://repl.it/classroom/invite/CJuYkDU
