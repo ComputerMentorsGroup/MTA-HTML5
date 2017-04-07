@@ -146,7 +146,7 @@ For the full SVG Reference, visit: https://www.w3schools.com/graphics/svg_refere
 
 
 
-# Challenge 7
+# Challenge 7 Part 1
 
 A challenge relating to the original sample code should go here.
 
@@ -184,3 +184,69 @@ A challenge relating to the original sample code should go here.
 7. Change the outline color or thickness (or both!)
     
 Complete Challenge 7 on Repl.it: https://repl.it/classroom/invite/CJuYkDU
+
+
+# Challenge 7 Part 2
+
+```HTML5
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Triangle Canvas Example</title>
+
+	<style>
+		body {
+			text-align: center;
+		}		
+		canvas {
+			border: 5px solid black;
+		}
+	</style>
+</head>
+<body>
+
+<canvas id="myCanvas" width="309" height="110"></canvas>
+
+    <script>
+		
+	var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+
+// gradient
+var grd = ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"coral");
+grd.addColorStop(0.5,"tomato");
+grd.addColorStop(1,"gold");
+ctx.fillStyle = grd;
+ctx.fillRect(2,2,300,100);
+
+
+ctx.beginPath();
+ctx.arc (155,50,60,0,2*Math.PI);
+ctx.stroke();
+
+
+ctx.font = "30px Times New Roman";
+ctx.fillStyle = "white";
+ctx.fillText("Hakuna Matata",30,80);
+
+
+
+/*var canvas = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+context.fillStyle = '#c00';
+context.fillRect(2, 2, 100, 100);
+*/ 
+    </script>
+ 
+</body>
+</html>
+```
+
+* CRITERIA
+1. The Gradient currently has three colors, one of those colors is "Tomato". Remove it to only have two colors.
+2. The Canvas itself should not have a visible border surrounding it.
+3. The Circle should have a radius of 45, not 60. (hint: Circles are made using arcs)
+4. The text should have the Font Family "Broadway".
+5. The text should also have a hexadecimal color of ef2545. (remember, hex colors require a # sign before the hex code) 
