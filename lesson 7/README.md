@@ -148,8 +148,6 @@ For the full SVG Reference, visit: https://www.w3schools.com/graphics/svg_refere
 
 # Challenge 7 Part 1
 
-A challenge relating to the original sample code should go here.
-
 ```HTML5
 <!DOCTYPE html>
 <html>
