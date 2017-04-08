@@ -13,7 +13,6 @@ We will also cover more CSS techniques and Media Queries.
 ### Instructions
 1. Complete all 24 levels at http://flexboxfroggy.com/
 
-
 ## Details
 Tips and help for Flexboxfroggy
 
@@ -74,3 +73,7 @@ body {
     * You need to use a flexbox so that new content you add to the container displays at the top of the list.  Do not assign an order.
     * Fix the CSS Flex Direction to properly flip your list.
     * Find this assignment at Challenge 5: https://repl.it/classroom/invite/CJuYkDU
+
+
+
+See also: http://cssgridgarden.com/
