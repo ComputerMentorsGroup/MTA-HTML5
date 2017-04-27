@@ -117,19 +117,31 @@ Details about what the code above goes here
     * If the submitted file is a TEXT file, code within the {} brackets is executed.
     
   * `var reader = new FileReader();`
-    * If the submitted file is a TEXT file, an object containing the text is created (File Reader Instance)
+  	* The FileReader interface provides a number of methods that can be used to read either File or Blob objects. These methods are all asynchronous which means that your program will not stall whilst a file is being read. This is particularly useful when dealing with large files.
 
   * `reader.onload = function(e) { fileDisplayArea.innerText = reader.result; }`
     * When the reader is completed (or the text file is completely added to the File Reader Instance), the RESULT is the text within the file - This text will update the "innerText" of the id="fileDisplayArea".
     
 * `reader.readAsText(file);`
-    * Call the readAsText() method of the File API to produce the result.
+    * The readAsText() method can be used to read text files. This method has two parameters. The first parameter is for the File or Blob object that is to be read. The second parameter is used to specify the encoding of the file. This second parameter is optional. If you don’t specify an encoding UTF-8 is assumed by default.
+    * As this is an asynchronous method we need to setup an event listener for when the file has finished loading. When the onload event is called we can examine the result property of our FileReader instance to get the file’s contents. You will need to use this same approach for all of the read methods provided by FileReader.
     
 * `else {fileDisplayArea.innerText = "File not supported!"}`
     * If the submitted file is not a text file, display "File Not Supported!"
    
-     
-    
+ 
+ ### Some more...
+ 
+ * readAsDataURL()
+ 	* The readAsDataURL() method takes in a File or Blob and produces a data URL. This is basically a base64 encoded string of the file data. You can use this data URL for things like setting the src property for an image. We will look at how to do this later in the images demo.
+ * readAsBinaryString()
+ 	* The readAsBinaryString() method can be used to read any type of file. The method returns the raw binary data from the file. If you use readAsBinaryString() along with the XMLHttpRequest.sendAsBinary() method you can upload any file to a server using JavaScript.
+ * readAsArrayBuffer()
+ 	* The readAsArrayBuffer() method will read a Blob or File object and produce an ArrayBuffer. An ArrayBuffer is a fixed-length binary data buffer. They can come in handy when manipulating files (like converting a JPEG image to PNG).
+ * abort()
+    	* The abort() method will stop a read operation. This can come in handy when reading large files.
+
+
     
 # Challenge Num
 
