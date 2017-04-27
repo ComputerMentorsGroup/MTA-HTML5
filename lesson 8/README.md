@@ -60,6 +60,7 @@ In Lesson 8.2 we cover the JavaScript File API
 		<pre id="fileDisplayArea"><pre>
 
 	</div>
+	 <script src="text.js"></script> <!-- ERASE THIS LINE IF YOU'RE USING CODEPEN -->
 ```
 
 ### File API JavaScript
@@ -93,13 +94,65 @@ window.onload = function() {
 ## Details
 Details about what the code above goes here
 
-* `Each line of code should be bulleted here`
+* `window.onload = function() {}`
     * A bulleted list of things about the line above should go here
     * **Really important stuff should be bold like this**
     * Keywords should be *italicized*
 
+* `var fileInput = document.getElementById('fileInput');`
+    * A bulleted list of things about the line above should go here
+    * **Really important stuff should be bold like this**
+    * Keywords should be *italicized*
+    
+ * `var fileDisplayArea = document.getElementById('fileDisplayArea');`
+    * A bulleted list of things about the line above should go here
+    * **Really important stuff should be bold like this**
+    * Keywords should be *italicized*
+        
+  * `fileInput.addEventListener('change', function(e) {}`
+    * A bulleted list of things about the line above should go here
+    * **Really important stuff should be bold like this**
+    * Keywords should be *italicized*    
+    
+  * `var file = fileInput.files[0];`
+    * A bulleted list of things about the line above should go here
+    * **Really important stuff should be bold like this**
+    * Keywords should be *italicized*    
+    
+  * `var textType = /text.*/;`
+    * A bulleted list of things about the line above should go here
+    * **Really important stuff should be bold like this**
+    * Keywords should be *italicized*    
+    
+  * `if (file.type.match(textType)) {}`
+    * A bulleted list of things about the line above should go here
+    * **Really important stuff should be bold like this**
+    * Keywords should be *italicized*    
+    
+  * `var reader = new FileReader();`
+    * A bulleted list of things about the line above should go here
+    * **Really important stuff should be bold like this**
+    * Keywords should be *italicized*
 
+  * `reader.onload = function(e) { fileDisplayArea.innerText = reader.result; }`
+    * A bulleted list of things about the line above should go here
+    * **Really important stuff should be bold like this**
+    * Keywords should be *italicized*
 
+    
+* `reader.readAsText(file);`
+    * A bulleted list of things about the line above should go here
+    * **Really important stuff should be bold like this**
+    * Keywords should be *italicized*
+    
+* `else {fileDisplayArea.innerText = "File not supported!"}`
+    * A bulleted list of things about the line above should go here
+    * **Really important stuff should be bold like this**
+    * Keywords should be *italicized*
+   
+     
+    
+    
 # Challenge Num
 
 A challenge relating to the original sample code should go here.
