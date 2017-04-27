@@ -134,13 +134,45 @@ Details about what the code above goes here
  
  * readAsDataURL()
  	* The readAsDataURL() method takes in a File or Blob and produces a data URL. This is basically a base64 encoded string of the file data. You can use this data URL for things like setting the src property for an image. We will look at how to do this later in the images demo.
+```JavaScript
+var reader = new FileReader();
+
+reader.onload = function(e) {
+  var dataURL = reader.result;
+}
+
+reader.readAsDataURL(file);
+```
+
  * readAsBinaryString()
  	* The readAsBinaryString() method can be used to read any type of file. The method returns the raw binary data from the file. If you use readAsBinaryString() along with the XMLHttpRequest.sendAsBinary() method you can upload any file to a server using JavaScript.
+```JavaScript
+var reader = new FileReader();
+
+reader.onload = function(e) {
+  var rawData = reader.result;
+}
+
+reader.readAsBinaryString(file);
+```
+
  * readAsArrayBuffer()
  	* The readAsArrayBuffer() method will read a Blob or File object and produce an ArrayBuffer. An ArrayBuffer is a fixed-length binary data buffer. They can come in handy when manipulating files (like converting a JPEG image to PNG).
+```JavaScript
+var reader = new FileReader();
+
+reader.onload = function(e) {
+  var arrayBuffer = reader.result;
+}
+
+reader.readAsArrayBuffer(file);
+```
+
  * abort()
     	* The abort() method will stop a read operation. This can come in handy when reading large files.
-
+```JavaScript
+reader.abort();
+```
 
     
 # Challenge Num
