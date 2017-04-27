@@ -95,60 +95,38 @@ window.onload = function() {
 Details about what the code above goes here
 
 * `window.onload = function() {}`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
+    * Anything within the {} is executed after the web page is completely loaded.
 
 * `var fileInput = document.getElementById('fileInput');`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
+    * Set a variable called fileInput that is linked to the input with id="fileInput"
     
  * `var fileDisplayArea = document.getElementById('fileDisplayArea');`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
+    * Set a variable called fileDisplayArea that is linked to the id="fileDisplayArea"
         
   * `fileInput.addEventListener('change', function(e) {}`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*    
+    * An EventListener is added to the fileInput variable
+    * Whenever the user selects a file the function is executed
     
   * `var file = fileInput.files[0];`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*    
+    * This variable, named file, looks at the fileInput files property and fetches the first file
     
   * `var textType = /text.*/;`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*    
+    * Checks to see if the submitted file is a text file (*.txt)  
     
   * `if (file.type.match(textType)) {}`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*    
+    * If the submitted file is a TEXT file, code within the {} brackets is executed.
     
   * `var reader = new FileReader();`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
+    * If the submitted file is a TEXT file, an object containing the text is created (File Reader Instance)
 
   * `reader.onload = function(e) { fileDisplayArea.innerText = reader.result; }`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
-
+    * When the reader is completed (or the text file is completely added to the File Reader Instance), the RESULT is the text within the file - This text will update the "innerText" of the id="fileDisplayArea".
     
 * `reader.readAsText(file);`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
+    * Call the readAsText() method of the File API to produce the result.
     
 * `else {fileDisplayArea.innerText = "File not supported!"}`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
+    * If the submitted file is not a text file, display "File Not Supported!"
    
      
     
