@@ -49,41 +49,41 @@ It sounds like a lot, but this is the best way to work on your files!
 
 # Outline
 
-## Week One
+## Lesson One
 * Getting Started
 * Basic HTML tags
 
-## Week Two
+## Lesson Two
 * More HTML tags
 * Inline Styling
 * Video and Audio
 * Images
 
-## Week Three
+## Lesson Three
 * CSS Style Sheets
 * Classes and IDs
 * Working with DIVs
 * Semantic Elements
 
-## Week Four
+## Lesson Four
 * Tables
 * Lists
 * Inputs
 * Forms
 * More CSS features
 
-## Week Five
+## Lesson Five
 * Flexbox
     * Flexbox Frogger
 
-## Week Six
+## Lesson Six
 * Media Queries
 * Keyframes Animation using CSS
 
-## Week Seven
+## Lesson Seven
 * Drawing using SVG vs. Canvas
 
-## Week Eight
+## Lesson Eight
 * JavaScript
     * Alerts
     * Calculator
@@ -93,12 +93,12 @@ It sounds like a lot, but this is the best way to work on your files!
 * Web Worker
 * Cookies
 
-## Week Nine
+## Lesson Nine
 * Databases
 * Cloud 9
 * Basic SQL
 
-## Week Ten
+## Lesson Ten
 * Application Life Cycle
 * Validating your Web App
 
