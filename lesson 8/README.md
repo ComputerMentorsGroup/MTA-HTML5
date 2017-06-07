@@ -56,7 +56,8 @@ Details about what the code above goes here
     * Value is what is contained in the input field or button.  For example, this button will say "0" on it.
 * `<input type="button" value="5" onClick="document.calculator.ans.value+='5'">`
     * onClick describes a JavaScript event.  When the button is "clicked" JavaScript looks in the **Document** for **calculator** (defined by *`<form name="calculator">`*) and locates the **ans** field (*`<input type="textfield" name="ans" value="">`*).  The value of the **ans** field by default is "", but the **+=** places the number **5** into the field.  *+=* appends values.
-
+* `<br/>`
+    * Stands for linebreak.  Will start a new line wherever it is placed.
 
 
 
