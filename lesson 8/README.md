@@ -59,6 +59,7 @@ Details about what the code above goes here
 * `<br/>`
     * Stands for linebreak.  Will start a new line wherever it is placed.
 
+Need a refresher on styles? http://www.dummies.com/web-design-development/html5-and-css3/how-to-use-an-external-style-sheet-for-html5-and-css3-programming/
 
 
 # Lesson 8.2: File API
