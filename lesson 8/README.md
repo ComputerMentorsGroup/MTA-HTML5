@@ -4,21 +4,45 @@ In Lesson 8.1 we cover a brief introduction to JavaScript and important concepts
 
 ### Instructions
 1. Open Notepad, or your favorite text editor.
-2. Save the file as.....
+2. Save the file as calculator.html
 3. Using the example below, reproduce the webpage with your own content
 
-**Need an idea?  Pick from these prompts:**
-* idea
-* idea
-* idea
-
 **Criteria for the Lesson NUMBER webpage:**
-* .
-* .
-* .
+* Create a form named "Calculator"
+* Add all the common calculator buttons to your calculator
+* Style the calculator using an external stylesheet named style.css
+* Use onClick to trigger JavaScript reactions for the form
 
 ```HTML5
-// Sample code should that demonstrates what should be taught in this lesson should go here
+<html>
+<head>
+<title>HTML Calculator</title>
+<link rel = "stylesheet" type = "text/css" href = "style.css" />
+</head>
+<form name="calculator" >
+<input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+<input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+<input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+<input type="button" value="+" onClick="document.calculator.ans.value+='+'">
+ 
+<input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+<input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+<input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+<input type="button" value="-" onClick="document.calculator.ans.value+='-'">
+ 
+<input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+<input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+<input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+<input type="button" value="*" onClick="document.calculator.ans.value+='*'">
+<input type="button" value="/" onClick="document.calculator.ans.value+='/'">
+ 
+<input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+<input type="reset" value="Reset">
+<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+<br>Solution is <input type="textfield" name="ans" value="">
+</form>
+</body>
+</html>
 ```
 
 ## Details
