@@ -48,10 +48,14 @@ In Lesson 8.1 we cover a brief introduction to JavaScript and important concepts
 ## Details
 Details about what the code above goes here
 
-* `Each line of code should be bulleted here`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
+* `<form name="calculator">`
+    * Name the form so it can be targeted by JavaScript
+* `<input type="button">`
+    * This defines the type of input that is displayed.  Other options include "text", "textarea", "password".
+* `<input type="button" value="0">`
+    * Value is what is contained in the input field or button.  For example, this button will say "0" on it.
+* `<input type="button" value="5" onClick="document.calculator.ans.value+='5'">`
+    * onClick describes a JavaScript event.  When the button is "clicked" JavaScript looks in the **Document** for **calculator** (defined by *`<form name="calculator">`*) and locates the **ans** field (*`<input type="textfield" name="ans" value="">`*).  The value of the **ans** field by default is "", but the **+=** places the number **5** into the field.  *+=* appends values.
 
 
 
