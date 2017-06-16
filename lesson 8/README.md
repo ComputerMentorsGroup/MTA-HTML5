@@ -78,13 +78,13 @@ Need a refresher on styles? http://www.dummies.com/web-design-development/html5-
 
 
 **In the HTML section type the following:**
-````HTML
+```HTML
 <button onclick="clickMe()">Vote for Pedro</button>
 <p>Clicks: <a id="clicks">0</div></p>
 ```
 
 **In the CSS section, type and customize the following:***
-````HTML5
+```HTML5
 button {
   height: 300px;
   width: 300px;
@@ -100,7 +100,6 @@ button:hover {
   background: red;
   transition: 2s;
 }
-
 ```
 
 **In the JavaScript (JS) section, type the following:***
@@ -114,21 +113,21 @@ button:hover {
 
 ## Details
 
-`var clicks = 0;`
+* `var clicks = 0;`
 * Establishes a variable named "clicks" with the value of 0.
 
-`function clickMe(){`
+* `function clickMe(){`
 * Establishes the name of a new function (or feature!).  In this case, the function is named clickMe. 
 
-`clicks += 1;`
+* `clicks += 1;`
 * Increments the value of the variable "clicks" by 1.  The number could be changed to anything you want.  If you'd like the number to go up by even numbers you could change it to "2", or even 1000!
 
-`document.getElementById("clicks").innerHTML = clicks;`
+* `document.getElementById("clicks").innerHTML = clicks;`
 * This is where a lot of the magic happens.  This piece of code searches the web page document for anything with an ID="clicks". (document.getElementById).  This piece of code is **case sensitive** meaning uppercase/lowercase matters!
 * the .innerHTML piece changes the content of the element assigned to the id="clicks".  In this case, it is changing the content to match our "clicks" variable value.
 * If the value of our "clicks" variable is 100, then .innerHTML will update to read "100".
 
-`}`
+* `}`
 * Always make sure to close your JavaScript functions with a curly brace.
 
 
