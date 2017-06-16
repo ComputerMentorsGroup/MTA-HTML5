@@ -130,6 +130,7 @@ button:hover {
 * `}`
 * Always make sure to close your JavaScript functions with a curly brace.
 
+#### Do you want to save your CodePen Button Project?  Click EXPORT - EXPORT .ZIP at the bottom right corner.####
 
 # Lesson 8.3: File API
 
