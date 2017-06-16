@@ -83,7 +83,7 @@ Need a refresher on styles? http://www.dummies.com/web-design-development/html5-
 <p>Clicks: <a id="clicks">0</div></p>
 ```
 
-**In the CSS section, type and customize the following:***
+**In the CSS section, type and customize the following:**
 ```HTML5
 button {
   height: 300px;
@@ -102,7 +102,7 @@ button:hover {
 }
 ```
 
-**In the JavaScript (JS) section, type the following:***
+**In the JavaScript (JS) section, type the following:**
 ```Javascript
   var clicks=0;
   function clickMe(){
