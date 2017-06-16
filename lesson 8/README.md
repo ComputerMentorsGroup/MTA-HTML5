@@ -274,15 +274,3 @@ reader.abort();
 ```
 
     
-# Challenge Num
-
-A challenge relating to the original sample code should go here.
-
-```HTML5
-// Sample code should that demonstrates what should be taught in this lesson should go here
-```
-
-* CRITERIA
-    * item
-    * item
-    * item
