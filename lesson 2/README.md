@@ -35,11 +35,11 @@ Lesson two introduces a few more HTML tags and what is known as *inline styling*
 
 <video
 width="400" height="300"
-poster="splashpage.jpg"
+poster=""
 autoplay="autoplay"
 controls="controls"
 loop="loop">
-<source src="aseets/video.mp4" type="video/mp4">
+<source src="assets/video.mp4" type="video/mp4">
 <source src="assets/video.ogv" type='video/ogg; codecs="theora, vorbis"'>
 Sorry, Your browser does not support HTML5 videos.
 </video>
@@ -96,7 +96,7 @@ Sorry, Your browser does not support HTML5 videos.
         * If the video autoplays when the page is loaded, then PRELOAD is not needed.
         * `<video preload="none">`
 * `<h1 class="mainHeading"></h1>`
-    * CLASSES may be assigned to any HTML tag.  Classes give elements a name, which makes it easy to style the document.
+    * CLASSES may be assigned to any HTML tag.  Classes give elements a name, which makes it easy to style the document. The above header tag has been named 'mainHeading.'
 * `<style ="color: green;">`
     * **Inline Styling** is not recommended, but occasionally used, and is great for learning the beginnings
     of **CSS (Cascading Style Sheets)**.  Pay close attention to the syntax.
@@ -108,6 +108,8 @@ Sorry, Your browser does not support HTML5 videos.
     * FIGURE is a way of grouping images together.  Multiple images between the figure tag are placed side-by-side.
 * `<figcaption></figcaption>`
     * Set a caption under the grouping of images, such as "Product Images"
+* `<mark></mark>`
+    * Highlights any text contained within its tags. Can be nested within other paragraph and header tags.
 * `<div></div>`
     * DIV is a way to divide up your content and page so it can be styled separately.  Think of DIV as a room in a 
     house - it's still part of the house, but might have a different "theme" or appearance.  
