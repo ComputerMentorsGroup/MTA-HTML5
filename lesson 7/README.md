@@ -1,6 +1,6 @@
 # Lesson 7
 
-In Lesson 7 we explore the differences between drawing with Canvas and SVG web technologies. In order to do so, we will utilize some JavaScript. In the next lesson, you will acquire a more rounded foundation of JavaScript.
+In Lesson 7, we explore the differences between drawing with Canvas and SVG web technologies. In order to do so, we will utilize some JavaScript. In the next lesson, you will acquire a more rounded foundation of JavaScript.
 
 ### Instructions
 1. Visit www.codepen.io
