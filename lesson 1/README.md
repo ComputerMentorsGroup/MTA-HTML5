@@ -52,7 +52,7 @@ The code above produces a simple webpage about Pet Care.  The page includes an i
 * `<title></title>`
     * Title tags are the text that shows at the top of your **browser window**, not within the document.  This is also "behind the scenes" and is **nested** within the head tags.  Nested simply means placing a tag within another.
 * `<meta charset="">`
-    * Meta tags, short for metadata, define some preliminary characteristics of your webpage. The above example allows you to select the type of character encoding that your webpage will employ. Similar to title tags, this tag is location between the head tags. For additional uses of the meta tag, please navigate to https://www.w3schools.com/tags/tag_meta.asp. 
+    * Meta tags, short for metadata, define some preliminary characteristics of your webpage. The above example allows you to select the type of character encoding that your webpage will employ. Similar to title tags, this tag is located between the head tags. For additional uses of the meta tag, please navigate to https://www.w3schools.com/tags/tag_meta.asp. 
 * `<body></body>`
     * Anything you put between the body tags is your actual content, which displays on the webpage document. 
 * `<h1></h1>` through `<h6></h6>`
