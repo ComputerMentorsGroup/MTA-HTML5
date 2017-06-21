@@ -141,7 +141,7 @@ For more information:
 * Input Types - https://www.w3schools.com/html/html_form_input_types.asp
 * Form Methods - https://www.w3schools.com/tags/att_form_method.asp
 * Form Actions - https://www.w3schools.com/tags/att_form_action.asp
-   * For an email form, we'll set the method to `POST` and the action to `http://formspree.io/YOUREMAILHER`
+   * For an email form, we'll set the method to `POST` and the action to `http://formspree.io/YOUREMAILHERE`
 # Challenge 4
 
 Check out this lesson's challenge on Repl.it:
