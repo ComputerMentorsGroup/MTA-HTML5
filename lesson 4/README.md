@@ -93,7 +93,7 @@ Details about what the code above goes here
     * Keywords should be *italicized*
     
 * `<th> </th>`
-   * Nested within the table row elements, use the `<th> </th>` tags to define cells which contain table headers.
+   * Nested within the table row elements or table element, use the `<th> </th>` tags to define cells which contain table headers.
    * The table heading spans across all columns.
    * **TH** stands for TABLE HEADER
 
@@ -128,6 +128,7 @@ Details about what the code above goes here
    * Once you've established whether you want to make a bulleted list or numbered list, each item must be wrapped within LI tags.
    * LI stands for List Item.
 
+### Form Elements ###
 * `<form method="" action=""> </form>`
 
 * `<input type="" name="" placeholder=""> </input>`
@@ -135,6 +136,11 @@ Details about what the code above goes here
 * `<textarea name=""></textarea>`
 
 * `<button type=""></button>`
+
+For more information:
+   Input Types - https://www.w3schools.com/html/html_form_input_types.asp
+   Form Methods - https://www.w3schools.com/tags/att_form_method.asp
+   Form Actions - https://www.w3schools.com/tags/att_form_action.asp
 
 # Challenge 4
 
