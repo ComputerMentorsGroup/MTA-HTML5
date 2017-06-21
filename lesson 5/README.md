@@ -45,7 +45,7 @@ Tips and help for Flexboxfroggy
 
 ```HTML5
 body {
-    background: #def;
+    background-color: #def;
 }
 
 .myFlexbox ul { 
