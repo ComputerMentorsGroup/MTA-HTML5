@@ -51,7 +51,7 @@ The code above produces a simple webpage about Pet Care.  The page includes an i
     * Head tags go at the top of the HTML document.  The head is used for defining the document style and linking to scripts.  Usually the stuff you type in here won't be seen on the page.  Think of it as "behind the scenes".
 * `<title></title>`
     * Title tags are the text that shows at the top of your **browser window**, not within the document.  This is also "behind the scenes" and is **nested** within the head tags.  Nested simply means placing a tag within another.
-*  <meta charset="">
+* `<meta charset="">`
     * Meta tags, short for metadata, define some preliminary characteristics of your webpage. The above example allows you to select the type of character encoding that your webpage will employ. Similar to title tags, this tag is location between the head tags. For additional uses of the meta tag, please navigate to https://www.w3schools.com/tags/tag_meta.asp. 
 * `<body></body>`
     * Anything you put between the body tags is your actual content, which displays on the webpage document. 
@@ -64,7 +64,7 @@ The code above produces a simple webpage about Pet Care.  The page includes an i
 * `<img src="" />`
     * Between the quotes, place the address to an image!  You can do a google search for an image you like, click on it, then copy/paste the web address.  Make sure the web address you're pasting ends with .jpg .jpeg or .png.  This tag is **self-closing** and doesn't have a pair to close it.  Instead, finish the tag simply with a `/>`.
 * `<img ... alt="" />`
-    * The alt attribute, which stands for alternative text, allows you to add a description to your image. This description pops up when a user hovers over the image. Whenever including an <img> tag, make sure to include an alt attribute and a description between the quotes.
+    * The alt attribute, which stands for alternative text, allows you to add a description to your image. This description pops up when a user hovers over the image. Whenever including an `<img>` tag, make sure to include an alt attribute and a description between the quotes.
 * `<a href="" />` Your clickable text `</a>`
     * Link to other pages or websites using the ANCHOR <a> tag.  HREF stands for
 Hypertext REFerence, which is the techy way of saying "Point to this website".  Put
