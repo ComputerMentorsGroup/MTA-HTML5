@@ -274,4 +274,89 @@ reader.readAsArrayBuffer(file);
 reader.abort();
 ```
 
-    
+
+# Lesson 8.4: Web Workers
+Web workers are JavaScripts that run independent of other scripts (i.e. the script runs in the background). Often times, these scripts are used to connect to multiple webpages and fetch real-time data. However, a web worker can complete a simple background task like counting numbers as well.
+
+In order to employ a web worker, you need to create a worker thread as follows:
+`var worker = new Worker(‘worker.js’);`
+
+As far as sample code goes, the below can be typed up in webworker.html
+
+```
+<!doctype html>
+<html lang="en">
+<head>
+<script>
+var worker = new Worker('doWork.js');
+// Send a message to start the worker and pass a
+variable to it
+var info = 'Web Workers';
+worker.postMessage(info);
+// Receive a message from the worker
+worker.onmessage = function (event) {
+ // Do something
+ alert(event.data);
+};
+</script>
+<title>Web Workers Example</title>
+</head
+<body>
+</body>
+</html>
+```
+
+And the below can be saved as doWork.js
+```
+onmessage = function(event) { 
+var info = event.data; 
+var result = 'Hello ' + info + ' everywhere'; 
+postMessage(result); 
+};
+```
+
+# Mad Libs Lesson and Additional Animation Demos
+To access this lesson, you will need to navigate to the following link and create an account. Follow the slides at the top of the page for lesson material and instructions.
+https://dash.generalassemb.ly/projects/mad-libs-1
+
+#### Moving Paragraph Animation
+Copy the code below into paragraph.html
+```
+<!doctype html>
+<html>
+<head>
+<title>Animate with JavaScript</title>
+<script type = "text/javascript">
+ // Create a "ticker-tape" effect by sliding
+ // the paragraph of text one pixel to the
+ // right, over and over, until the right-hand
+ // limit of 300 pixels is reached. At that
+ // point, restart the animation all the way
+ // to the left.
+function move_paragraph() {
+ next = current + "px";
+ current += 1;
+ if (current > 300) {
+ current = 0;
+ }
+ paragraph.style.left = next;
+ // Pause for 18 milliseconds before
+ // the next move.
+ var rate = 18;
+ setTimeout(move_paragraph, rate);
+}
+function init() {
+ paragraph = document.getElementById("original");
+ paragraph.style.position = "absolute";
+ current = 0;
+ move_paragraph();
+}
+</script>
+</head>
+<body onload = "init();">
+<h1>Animate with JavaScript</h1>
+<p id = "original">Do you see me scrolling across the
+ screen?</p>
+</body>
+</html>
+```
