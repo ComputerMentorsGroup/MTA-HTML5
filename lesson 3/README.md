@@ -94,6 +94,7 @@ pages as created in previous lessons.
     * Use `font-family: fontName;` in your stylesheet as needed.
 * `<style></style>`
     * Contains CSS (Cascading Style Sheet) properties and attributes.
+    * Nested within the `<head>` tags
     * CSS uses the following format: SELECTOR {property: attribute;}
     * When using `<style>` tags, you are using **INTERNAL** styling. If you attach a style attribute to an HTML element, then you are using **INLINE** styling. Both these practices are not as preferred as **EXTERNAL** styling, where a separate CSS file is linked in the `<head>` tags.
     * Multiple properties and attributes may be used within the {} like so:
