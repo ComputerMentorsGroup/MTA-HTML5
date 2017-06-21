@@ -138,9 +138,9 @@ Details about what the code above goes here
 * `<button type=""></button>`
 
 For more information:
-   Input Types - https://www.w3schools.com/html/html_form_input_types.asp
-   Form Methods - https://www.w3schools.com/tags/att_form_method.asp
-   Form Actions - https://www.w3schools.com/tags/att_form_action.asp
+* Input Types - https://www.w3schools.com/html/html_form_input_types.asp
+* Form Methods - https://www.w3schools.com/tags/att_form_method.asp
+* Form Actions - https://www.w3schools.com/tags/att_form_action.asp
 
 # Challenge 4
 
