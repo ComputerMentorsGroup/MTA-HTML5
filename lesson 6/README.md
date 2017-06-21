@@ -1,6 +1,6 @@
 # Lesson 6
 
-In Lesson Num you will learn Advanced CSS topics, especially as they relate to transforming and drawing objects on the screen.
+In Lesson six you will learn Advanced CSS topics, especially as they relate to transforming and drawing objects on the screen.
 
 ### Instructions
 1. Open Notepad, or your favorite text editor.
