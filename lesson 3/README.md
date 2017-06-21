@@ -1,7 +1,7 @@
 # Lesson 3
 
-In Lesson 3 you will be modifying your index.html and about.html files to add SEMANTIC ELEMENTS and styling.  **SEMANTIC
-ELEMENTS** are used to section off types of content. Unlike **NON-SEMANTIC ELEMENTS**, semantic elements clearly indicate their content based on ther name.  http://www.w3schools.com/html/html5_semantic_elements.asp 
+In Lesson 3, you will be modifying your index.html and about.html files to add SEMANTIC ELEMENTS and styling.  **SEMANTIC
+ELEMENTS** are used to section off types of content. Unlike **NON-SEMANTIC ELEMENTS**, semantic elements clearly indicate their content based on their name:  http://www.w3schools.com/html/html5_semantic_elements.asp 
 
 ### Instructions
 1. Open Notepad, or your favorite text editor.
