@@ -319,8 +319,6 @@ body {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>repl.it</title>
-</head>
-<html>
 <style>
    #boxStyle {
    -ms-animation-name: moveUp;
@@ -361,6 +359,7 @@ body {
    100% { top: 0px; }
    }
 </style>
+</head>
 
 <body>
 <div id="boxStyle">Hello!</div>
