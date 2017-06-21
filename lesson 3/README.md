@@ -1,7 +1,7 @@
 # Lesson 3
 
 In Lesson 3 you will be modifying your index.html and about.html files to add SEMANTIC ELEMENTS and styling.  **SEMANTIC
-ELEMENTS** are used section off types of content. http://www.w3schools.com/html/html5_semantic_elements.asp 
+ELEMENTS** are used to section off types of content. Unlike **NON-SEMANTIC ELEMENTS**, semantic elements clearly indicate their content based on ther name.  http://www.w3schools.com/html/html5_semantic_elements.asp 
 
 ### Instructions
 1. Open Notepad, or your favorite text editor.
@@ -95,12 +95,13 @@ pages as created in previous lessons.
 * `<style></style>`
     * Contains CSS (Cascading Style Sheet) properties and attributes.
     * CSS uses the following format: SELECTOR {property: attribute;}
-    * multiple properties and attributes may be used within the {} like so:
+    * When using `<style>` tags, you are using **INTERNAL** styling. If you attach a style attribute to an HTML element, then you are using **INLINE** styling. Both these practices are not as preferred as **EXTERNAL** styling, where a separate CSS file is linked in the `<head>` tags.
+    * Multiple properties and attributes may be used within the {} like so:
     
     ```HTML5
-    h1{
+    h1 { <!-- h1 is SELECTOR -->
         color: red; 
-        font-family: Arial;}
+        font-family: Arial;} <!-- color and font-family are PROPERTIES. Arial and red are ATTRIBUTES -->
     ```
 
 * `h1 {font-family: sans-serif;}`
@@ -121,8 +122,12 @@ pages as created in previous lessons.
 
 
 
+# Classes v. IDs for Styling
+* In Lesson 2, we introduced classes and IDs as critical for naming elements. Now that we've introduced them for their styling purposes, let's get a little bit more into the differences!
+* IDs are generally for one time use. Adhere these to elements that need to be uniquely styled (no other element will require similar styling and therefore will not use the ID name). Preceded by '#' (e.g. `#id`)
+* Classes are meant to be reused. These can be used to style various elements that require the same set or group of CSS styling. Preceded by '.' (e.g. `.class`)
 
-
+# Semantic Elements
 * `<header></header>`
     * The `<header>` element specifies a header for a document or section. The `<header>` 
     element should be used as a container for introductory content.  You can have several 
