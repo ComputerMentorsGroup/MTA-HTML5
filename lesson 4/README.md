@@ -93,8 +93,9 @@ Details about what the code above goes here
     * Keywords should be *italicized*
     
 * `<th> </th>`
-   * Table heading, or TH, is used to define a title for your table.
+   * Nested within the table row elements, use the `<th> </th>` tags to define cells which contain table headers.
    * The table heading spans across all columns.
+   * **TH** stands for TABLE HEADER
 
 * `<tr> </tr>`
    * Nested within the table element, use the `<tr> </tr>` tags to define a row.
