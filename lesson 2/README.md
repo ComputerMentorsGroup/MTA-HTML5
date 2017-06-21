@@ -116,7 +116,7 @@ Sorry, Your browser does not support HTML5 videos.
 * `<div id="...">`
     * DIVs should be named, just like within a house we have names for rooms such as the kitchen or bedroom.
     Sometimes you willl need to **nest** your DIVs to give them extra styling power.  We will go into this more later, 
-    bust as an example, a kitchen might contain the dining room all in one. IDs are usually used with JavaScript to 
+    but as an example, a kitchen might contain the dining room all in one. IDs are usually used with JavaScript to 
     make your web pages dynamic and interactive. DIVs may also be given both an ID and a CLASS name.
 
 # Challenge 2
