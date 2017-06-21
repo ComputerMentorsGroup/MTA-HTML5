@@ -122,12 +122,12 @@ pages as created in previous lessons.
 
 
 
-# Classes v. IDs for Styling
+### Classes v. IDs for Styling
 * In Lesson 2, we introduced classes and IDs as critical for naming elements. Now that we've introduced them for their styling purposes, let's get a little bit more into the differences!
 * IDs are generally for one time use. Adhere these to elements that need to be uniquely styled (no other element will require similar styling and therefore will not use the ID name). Preceded by '#' (e.g. `#id`)
 * Classes are meant to be reused. These can be used to style various elements that require the same set or group of CSS styling. Preceded by '.' (e.g. `.class`)
 
-# Semantic Elements
+### Semantic Elements
 * `<header></header>`
     * The `<header>` element specifies a header for a document or section. The `<header>` 
     element should be used as a container for introductory content.  You can have several 
