@@ -38,6 +38,10 @@ In Lesson 4 you will learn how to create and modify tables and lists.
     <th>Effects of Pollution on the Environment</th>
   </tr>
   <tr>
+    <th>Types of Pollution</th>
+    <th>Effects</th>
+  </tr>
+  <tr>
     <td>Land</td>
     <td>4.3lbs of waste per person goes to the landfill each day</td>
   </tr>
@@ -54,7 +58,6 @@ In Lesson 4 you will learn how to create and modify tables and lists.
     <td>Light</td>
   </tr>
 </table>
-
  
  <h2>Things You Can Do</h2> 
   <ul>
