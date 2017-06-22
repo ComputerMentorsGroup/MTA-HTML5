@@ -34,13 +34,25 @@ In Lesson 4 you will learn how to create and modify tables and lists.
 <p>Pollution accounts for.... </p>
 
 <table>
-<th>Effects of Pollution on the Environment</th>
-<tr>Pollution Type<td></td><td></td><td></td></tr>
-<tr><td>Land</td><td>4.3lbs of waste per person goes to the landfill each day</td></tr>
-<tr><td>Water</td><td></td></tr>
-<tr><td>Air</td><td></td></tr>
-<tr><td>Noise</td><td></td></tr>
-<tr><td>Light</td><td></td></tr>
+  <tr>
+    <th>Effects of Pollution on the Environment</th>
+  </tr>
+  <tr>
+    <td>Land</td>
+    <td>4.3lbs of waste per person goes to the landfill each day</td>
+  </tr>
+  <tr>
+    <td>Water</td>
+  </tr>
+  <tr>
+    <td>Air</td>
+  </tr>  
+  <tr>
+    <td>Noise</td>
+  </tr>  
+  <tr>
+    <td>Light</td>
+  </tr>
 </table>
 
  
