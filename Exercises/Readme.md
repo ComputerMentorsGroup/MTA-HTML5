@@ -182,6 +182,8 @@ body {
 	background: #900C3F;
 	color: #581845;
 	font-family: Century Gothic;
+	background: url(http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/watercolor-grunge/watercolor-grunge-000038-coral-salmon.jpg) fixed;
+	background-size: contain;
 }
 
 .box {
