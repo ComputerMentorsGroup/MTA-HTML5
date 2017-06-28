@@ -8,7 +8,7 @@
 ### [Big Red Button](#RedButton)
 ### [Vote for Pedro](#Pedro)
 ### [My Resume](#resume)
-### Forms
+### [Landing Page for XYZ Co.](#landing)
 ### Sending and Retrieving Data
 ### Fun with Canvas
 ### Fun with SVG
@@ -151,4 +151,78 @@ a:hover, h2:hover {color: #000000;
 	transition: .7s;}
 
 ```
+
+***
+<a name="landing"></a>
+# Landing Page for XYZ Co
+
+## HTML
+```HTML5
+<div class="box">
+	<h3>Our website is currently down for maintenance.  Fill out the form below to be notified when we're back online!</h3>
+	<img src="http://uploads.webflow.com/58a6d3ec4844a92b609ec1f3/58b84fbfd8178b1159d14b97_xyz.png">
+	
+	<form>
+		<input type="text" name="email" placeholder="Enter Your Email Address to Subscribe!">
+		<br/>
+		<input type="submit" name="join" value="Join our Mailing List!">
+	</form>
+
+</div>
+
+```
+
+## CSS
+```HTML5
+body {
+	margin: 0 auto;
+	padding: 0;
+	background: #900C3F;
+	color: #581845;
+	font-family: Century Gothic;
+}
+
+.box {
+	margin: 25px auto;
+	padding: 10px;
+	height: 400px;
+	width: 400px;
+	background: rgba(255,195,166,.9);
+	border-radius: 10px;
+	border: 10px solid #C70039;
+	text-align: center;
+	opacity: .9;
+}
+
+h3 {
+	color: #FF5733;
+}
+
+input[type=submit] {
+	background: #FF5733;
+	border: 5px solid #C70039;
+	font-family: Century Gothic;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 14pt;
+}
+
+input[type=text] {
+	width: 90%;
+	padding: 2px;
+	text-align: center;
+	color: #C70039;
+	font-size: 14pt;
+	font-weight: 500;
+	border: 1px solid #C70039;
+	margin: 0 0 15px 0;
+}
+
+img {
+	height: 160px;
+	width: auto;
+	margin: 0 0 25px 0;
+}
+```
+
 
