@@ -6,7 +6,7 @@
 
 ## Table of Contents
 ### [Big Red Button](#RedButton)
-### Vote for Pedro
+### [Vote for Pedro](#Pedro)
 ### ReCreate a Web Page
 ### Forms
 ### Sending and Retrieving Data
@@ -45,7 +45,7 @@ function message() {
 ```
 ***
 
-# Vote for Pedro
+# Vote for Pedro <a name="#Pedro"></a>
 
 ## HTML
 ```HTML5
