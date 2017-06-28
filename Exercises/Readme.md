@@ -4,7 +4,7 @@
 
 
 
-## Practical Exercises List
+## Table of Contents
 ### [Big Red Button](#RedButton)
 ### Vote for Pedro
 ### ReCreate a Web Page
@@ -13,6 +13,7 @@
 ### Fun with Canvas
 ### Fun with SVG
 
+***
 
 # Big Red Button <a name="RedButton"></a>
 
@@ -42,3 +43,4 @@ function message() {
   alert('Oh No!');
   }
 ```
+***
