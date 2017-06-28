@@ -116,8 +116,10 @@ button:hover {
 /* Importing Google.com Font called Exo */
 @import url('https://fonts.googleapis.com/css?family=Exo');
 
-body {font-family: Arial;
-margin: 0 200px;}
+body {
+	font-family: Arial;
+	margin: 0 200px;
+}
 
 .intro {
 	text-align: center;}
@@ -131,17 +133,22 @@ img {
 	border-radius: 160px;
 }
 
-h1 {text-align: center;
-font-family: 'Exo', sans-serif;}
+h1 {
+	text-align: center;
+	font-family: 'Exo', sans-serif;
+}
 
-h2 {margin-top: 50px; /* Adding a little space between previous section's content and heading*/
+h2 {
+	margin-top: 50px; /* Adding a little space between previous section's content and heading*/
 	font-family: 'Exo', sans-serif;
 	color: #ffffff;
 	background: #1693A5;
 	padding: 8px;
-	width: 250px;}
+	width: 250px;
+}
 
-h3 {text-align: center;
+h3 {
+	text-align: center;
 	line-height: .8em;
 }
 
