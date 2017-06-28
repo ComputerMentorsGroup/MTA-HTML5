@@ -45,7 +45,7 @@ function message() {
 ```
 ***
 
-# Vote for Pedro <a name="#Pedro"></a>
+# Vote for Pedro <a name="Pedro"></a>
 
 ## HTML
 ```HTML5
