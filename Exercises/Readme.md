@@ -1,7 +1,7 @@
 <a name="top"></a>
 # Practical Exercises
 
-#### Use these exercises to challenge and practice what you've learned in your lessons.  These may contain features you'd like to implement into your own portfolio.  It is recommended to attempt these using Codepen.io before implementing into your own designs.
+#### Use these exercises to challenge and practice what you've learned in your lessons.  These may contain features you'd like to implement into your own portfolio.  It is recommended to attempt these using Codepen.io or c9.io before implementing into your own designs.
 
 
 
@@ -10,7 +10,6 @@
 ### [Vote for Pedro](#Pedro)
 ### [My Resume](#resume)
 ### [Landing Page for XYZ Co.](#landing)
-### Sending and Retrieving Data
 ### Fun with Canvas
 ### Fun with SVG
 
