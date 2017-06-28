@@ -89,8 +89,11 @@ button:hover {
 
 ## HTML
 ```HTML5
-<h1>My Name</h1>
-<h3><a href="mailto:myemail@domain.com">MyEmail@domain.com</a></h3>
+<div class="intro">
+	<h1>My Name</h1>
+	<h3><a href="mailto:myemail@domain.com">MyEmail@domain.com</a></h3>
+	<img src="http://www.rd.com/wp-content/uploads/sites/2/2016/02/06-train-cat-shake-hands.jpg" />
+</div>
 
 <h2>About</h2>
 <p>Describe who you are and what you are looking for in a workplace.</p>
