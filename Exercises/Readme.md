@@ -10,6 +10,7 @@
 ### [Vote for Pedro](#Pedro)
 ### [My Resume](#resume)
 ### [Landing Page for XYZ Co.](#landing)
+### [My Hex Colors](#hex)
 ### Fun with Canvas
 ### Fun with SVG
 
@@ -240,3 +241,88 @@ img {
 
 [Back to Top](#top)
 ***
+<a name="hex"></a>
+# My Hex Colors
+
+## HTML
+```HTML5
+<h1>My Fav Hex Colors</h1>
+
+<table>
+	<th>My Hex Color Chart</th>
+	<tr class="one"><td>Black</td></tr>
+	<tr class="two"><td>Lilac</td></tr>
+	<tr class="three"><td>Lavendar</td></tr>
+	<tr class="four"><td>Lemonade</td></tr>	
+	<tr class="five"><td>Hot Pink</td></tr>	
+	<tr class="six"><td>Stone</td></tr>	
+	<tr class="seven"><td>Earth</td></tr>
+	<tr class="eight"><td>Ocean</td></tr>
+	<tr class="nine"><td>Fire</td></tr>
+	<tr class="ten"><td>Tomato</td></tr>
+	<tr class="eleven"><td>Coral</td></tr>
+	<tr class="twelve"><td>Sky</td></tr>
+</table>
+```
+
+## CSS
+```HTML5
+body {
+	font-family: Calibri;
+	text-align: center;
+	color:  #000;
+	
+}
+tr {
+	height 10px;
+}
+
+.one {
+	background: #000;
+	color: #fff;
+}
+
+.two {
+	background: #a5a;
+}
+
+.three {
+	background: #55a;
+}
+
+.four {
+	background: #ffa;
+}
+
+.five {
+	background: #ea5bac;
+}
+
+.six{
+	background: #a6b7c8;
+}
+
+.seven {
+	background: #99aa99;
+}
+
+.eight {
+	background: #58aebc;
+}
+
+.nine {
+	background: #ff3322;
+}
+
+.ten {
+	background: #ff6347;
+}
+
+.eleven {
+	background: #FF7F50;
+}
+
+.twelve {
+	background: #2995e1;
+}
+```
