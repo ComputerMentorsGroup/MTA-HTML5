@@ -14,14 +14,14 @@
 ### Fun with SVG
 
 
-#Big Red Button <a name="RedButton"></a>
+# Big Red Button <a name="RedButton"></a>
 
-##HTML
+## HTML
 ```HTML5
 <button onclick="message()">Don't</button>
 ```
 
-##CSS
+## CSS
 ```HTML5
 button {
   height: 200px;
@@ -36,7 +36,7 @@ button {
 
 ```
 
-##JS
+## JS
 ```JavaScript
 function message() {
   alert('Oh No!');
