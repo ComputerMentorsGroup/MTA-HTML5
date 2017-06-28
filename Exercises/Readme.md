@@ -14,8 +14,8 @@
 ### Fun with SVG
 
 ***
-
-# Big Red Button <a name="RedButton"></a>
+<a name="RedButton"></a>
+# Big Red Button 
 
 ## HTML
 ```HTML5
@@ -44,8 +44,8 @@ function message() {
   }
 ```
 ***
-
-# Vote for Pedro <a name="Pedro"></a>
+<a name="Pedro"></a>
+# Vote for Pedro 
 
 ## HTML
 ```HTML5
@@ -83,8 +83,8 @@ button:hover {
 ```
 
 ***
-
-# My Resume <a name="resume"></a>
+ <a name="resume"></a>
+# My Resume
 
 ## HTML
 ```HTML5
