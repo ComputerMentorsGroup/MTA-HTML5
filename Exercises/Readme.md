@@ -1,3 +1,4 @@
+<a name="top"></a>
 # Practical Exercises
 
 #### Use these exercises to challenge and practice what you've learned in your lessons.  These may contain features you'd like to implement into your own portfolio.  It is recommended to attempt these using Codepen.io before implementing into your own designs.
@@ -43,6 +44,7 @@ function message() {
   alert('Oh No!');
   }
 ```
+[Back to Top](#top)
 ***
 <a name="Pedro"></a>
 # Vote for Pedro 
@@ -81,7 +83,7 @@ button:hover {
     document.getElementById("clicks").innerHTML = clicks;
   }
 ```
-
+[Back to Top](#top)
 ***
  <a name="resume"></a>
 # My Resume
@@ -151,7 +153,7 @@ a:hover, h2:hover {color: #000000;
 	transition: .7s;}
 
 ```
-
+[Back to Top](#top)
 ***
 <a name="landing"></a>
 # Landing Page for XYZ Co
@@ -225,4 +227,5 @@ img {
 }
 ```
 
-
+[Back to Top](#top)
+***
