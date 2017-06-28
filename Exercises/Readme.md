@@ -11,8 +11,7 @@
 ### [My Resume](#resume)
 ### [Landing Page for XYZ Co.](#landing)
 ### [My Hex Colors](#hex)
-### Fun with Canvas
-### Fun with SVG
+
 
 ***
 <a name="RedButton"></a>
@@ -326,3 +325,5 @@ tr {
 	background: #2995e1;
 }
 ```
+[Back to Top](#top)
+***
