@@ -329,7 +329,6 @@ tr {
 [Back to Top](#top)
 ***
 
-***
 <a name="nav"></a>
 # Navigation Bar
 
