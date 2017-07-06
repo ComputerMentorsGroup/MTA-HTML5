@@ -252,7 +252,7 @@ img {
 	<th>My Hex Color Chart</th>
 	<tr class="one"><td>Black</td></tr>
 	<tr class="two"><td>Lilac</td></tr>
-	<tr class="three"><td>Lavender</td></tr>
+	<tr class="three"><td>Lavendar</td></tr>
 	<tr class="four"><td>Lemonade</td></tr>	
 	<tr class="five"><td>Hot Pink</td></tr>	
 	<tr class="six"><td>Stone</td></tr>	
