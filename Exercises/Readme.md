@@ -11,6 +11,7 @@
 ### [My Resume](#resume)
 ### [Landing Page for XYZ Co.](#landing)
 ### [My Hex Colors](#hex)
+### [Navigation](#nav)
 
 
 ***
@@ -325,5 +326,59 @@ tr {
 	background: #2995e1;
 }
 ```
+[Back to Top](#top)
+***
+
+***
+<a name="nav"></a>
+# Navigation Bar
+
+## HTML
+```HTML5
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Register</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+```
+
+## CSS
+```HTML5
+nav li {
+  display: inline;
+  background: #5a5;
+  color: #fff;
+  padding: 10px;
+  font-family: Century Gothic;
+  font-weight: 600;
+  margin: 0 10px 0 0;
+}
+
+nav {
+  position: fixed;
+  margin: 0;
+  padding: 10px 0;
+  background: #eee;
+  height: 55px;
+  width: 98%;
+}
+
+ul li:hover {
+  background: #5c5;
+  transition: .5s;
+  border: 10px solid #5a5;
+  padding: 2px;
+  cursor: crosshair;
+}
+
+a:link, a:visited, a:active, a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
 [Back to Top](#top)
 ***
