@@ -12,6 +12,7 @@
 ### [Landing Page for XYZ Co.](#landing)
 ### [My Hex Colors](#hex)
 ### [Navigation](#nav)
+### [Hamburger Nav](#hnav)
 
 
 ***
@@ -379,5 +380,124 @@ a:link, a:visited, a:active, a:hover {
 }
 ```
 
+[Back to Top](#top)
+***
+<a name="RedButton"></a>
+# Big Red Button 
+
+## HTML
+```HTML5
+<button onclick="message()">Don't</button>
+```
+
+## CSS
+```HTML5
+button {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  background: red;
+  color: white;
+  font-family: Impact;
+  font-size: 40pt;
+  text-transform: uppercase;
+  }
+
+```
+
+## JS
+```JavaScript
+function message() {
+  alert('Oh No!');
+  }
+```
+[Back to Top](#top)
+
+
+***
+<a name="hnav"></a>
+# Hamburger Navigation 
+
+## HTML
+```HTML5
+<div class="navcontainer">
+	 <button id="navbtn"> &equiv; </button>
+
+<nav id="navmenu">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Register</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+</div>
+```
+
+## CSS
+```HTML5
+.navcontainer {
+	background: #efe;
+	height: 50%;
+}
+
+#navmenu {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+.active {
+	display: block !important;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+ 	background: #5c5;
+  	font-family: Georgia;
+	font-size: 20pt;
+	width: 115px;
+	margin: 5px 0;
+  	padding: 5px;
+	list-style: none;
+	border-right: 15px solid #5a5;
+}
+
+ul li:hover {
+	border-right: 15px solid #5aa;
+	transition: 1s;
+	padding-left: 20px;
+}
+
+a:link, a:visited, a:active, a:hover {
+  	cursor: crosshair;
+	color: #fff;
+  	text-decoration: none;
+}
+
+#navbtn {
+	background: #5a5;
+	color: #fff;
+	font-size: 30pt;
+	border:0;
+	height: 50px;
+	width: 50px;
+}
+
+#navbtn:hover {
+	color: #fff;
+	background: #5aa;
+	transition: .5s;
+}
+```
+
+
+## JS
+```HTML5
+$("#navbtn").click(function(){
+    $("#navmenu").toggleClass("active");
+});
+```
 [Back to Top](#top)
 ***
