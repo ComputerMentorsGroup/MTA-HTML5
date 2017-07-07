@@ -463,6 +463,9 @@ a:link, a:visited, a:active, a:hover {
 
 
 ## JS
+Make sure you use the JQuery Library (Settings - JavaScript - JQuery)
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
+
 ```HTML5
 $("#navbtn").click(function(){
     $("#navmenu").toggleClass("active");
