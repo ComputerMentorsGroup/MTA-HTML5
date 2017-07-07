@@ -381,37 +381,6 @@ a:link, a:visited, a:active, a:hover {
 ```
 
 [Back to Top](#top)
-***
-<a name="RedButton"></a>
-# Big Red Button 
-
-## HTML
-```HTML5
-<button onclick="message()">Don't</button>
-```
-
-## CSS
-```HTML5
-button {
-  height: 200px;
-  width: 200px;
-  border-radius: 200px;
-  background: red;
-  color: white;
-  font-family: Impact;
-  font-size: 40pt;
-  text-transform: uppercase;
-  }
-
-```
-
-## JS
-```JavaScript
-function message() {
-  alert('Oh No!');
-  }
-```
-[Back to Top](#top)
 
 
 ***
