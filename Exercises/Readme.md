@@ -13,6 +13,7 @@
 ### [My Hex Colors](#hex)
 ### [Navigation](#nav)
 ### [Hamburger Nav](#hnav)
+### [Modal Pop Up](#modal)
 
 
 ***
@@ -473,3 +474,92 @@ $("#navbtn").click(function(){
 ```
 [Back to Top](#top)
 ***
+
+<a name="modal"></a>
+# Modal Pop Up
+
+## HTML
+```HTML5
+<button id="register">Register here!</button>
+	
+	
+	<div id="registerMod" class="modal">
+	<div class="registerModContent">
+		<span class="close"><p> &times; </p></span>
+		<p>Thank you for your interest!</p>
+		<input type="email" name="YourEmail" placeholder="Your Email"/>
+		<button>Submit</button>
+	</div>
+	
+	
+	</div>
+```
+
+## CSS
+```HTML5
+.modal {
+	display: none;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: auto;
+	background: rgba(100,100,100,.5);
+	font-family: Georgia;
+	text-align: center;
+	font-size: 14pt;
+}
+
+.registerModContent {
+	background: #eee;
+	margin: 20px auto;
+	padding: 0px 20px 50px 20px;
+	border: 2px solid #888;
+	max-width: 50%;
+}
+
+
+.close p {
+	color: orange;
+	padding: 0 10px 0 0;
+	font-size: 40pt;
+	font-weight: bold;
+	text-align: right;
+	line-height: 0px;
+}
+
+.close p:hover, .close p:focus {
+	color: red;
+	text-decoration: none;
+}
+```
+
+
+## JS
+
+```HTML5
+var modal = document.getElementById("registerMod");
+
+var btn = document.getElementById("register");
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+	modal.style.display = "block";
+}
+
+span.onclick = function () {
+	modal.style.display = "none";
+}
+
+window.onclick = function(e) {
+	if (e.target == modal) {
+		modal.style.display = "none";
+	}
+}
+```
+[Back to Top](#top)
+***
+
