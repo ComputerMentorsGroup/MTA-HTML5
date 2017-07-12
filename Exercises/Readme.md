@@ -78,7 +78,7 @@ button:hover {
 
 
 ## JS
-```HTML5
+```JavaScript
   var clicks=0;
   function clickMe(){
     clicks += 1;
@@ -467,7 +467,7 @@ a:link, a:visited, a:active, a:hover {
 Make sure you use the JQuery Library (Settings - JavaScript - JQuery)
 https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
 
-```HTML5
+```JavaScript
 $("#navbtn").click(function(){
     $("#navmenu").toggleClass("active");
 });
@@ -539,7 +539,7 @@ $("#navbtn").click(function(){
 
 ## JS
 
-```HTML5
+```JavaScript
 var modal = document.getElementById("registerMod");
 
 var btn = document.getElementById("register");
