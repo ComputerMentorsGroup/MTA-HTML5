@@ -429,4 +429,4 @@ You can update your level at any time. It is
 </html>
 ```
 
-Through the use of cookies, the webpage should be able to remember whatever level you input.
+Through the use of cookies, the webpage should be able to remember whatever level you input. Remember, cookies are not a perfect solution, and can be pretty limited in what they do. Privacy concerns regarding cookies are not uncommon. To be precise, it is important to be aware of the limitations and advantages that cookies can provide.
