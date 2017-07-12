@@ -360,3 +360,73 @@ function init() {
 </body>
 </html>
 ```
+
+# Lesson 8.5: Cookies
+Cookies are essentially the bits of information that a webpage stores on a user's computer. This can include browsing preferences, configurations, and usage, all of which can support a site's functionality. Quite often, a website may inform its user about cookie usage to uphold a privacy policy. Regardless, the key point of cookies is to retain a user's information from visit to visit.
+
+To demonstrate JavaScript's ability to remember such information, code the following. Cookies can only be enabled through webpages accessed on a network, and not locally, so you may need to contact your instructor.
+```
+<!doctype html>
+<html>
+<head>
+<title>Use of cookies</title>
+<script type = "text/javascript">
+function getCookie(c_name) {
+ var i,x,y,ARRcookies=document.cookie.split(";");
+ for (i=0;i<ARRcookies.length;i++)
+ {
+ x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+ y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+ x=x.replace(/^\s+|\s+$/g,"");
+ if (x==c_name)
+ {
+ return unescape(y);
+ }
+ }
+}
+function init() {
+ var message;
+ level_object = document.getElementById("level");
+ var welcome = document.getElementById("welcome");
+ var level = getCookie("level");
+ if (level == null || level == '') {
+ message = "It appears this is your first time
+ to play. You will start at level 1.";
+ level = 1;
+ } else {
+ message = "When you last played, you reached
+ level " + level +". You will start there now.";
+ }
+ welcome.innerHTML = message;
+ level_object.value = level;
+}
+function save_level() {
+ setCookie("level", level_object.value, 10);
+}
+function setCookie(c_name,value,exdays) {
+ var exdate=new Date();
+ exdate.setDate(exdate.getDate() + exdays);
+ var c_value=escape(value) + ((exdays==null) ? ""
+ : "; expires="+exdate.toUTC
+String());
+ document.cookie=c_name + "=" + c_value;
+}
+c09CreatingAnimationsWorkingwithGraphicsandAccessingData.indd Page 236 10/18/12 10:49 AM F-400
+Creating Animations, Working with Graphics, and Accessing Data | 237
+</script>
+</head>
+<body onload = "init();">
+<h1>Use of cookies</h1>
+<p id = "welcome">Welcome.</p>
+<form>
+You can update your level at any time. It is
+ currently set at
+<input id = "level" type = "number" min = "1" max =
+ "100"
+ oninput = "save_level();" />.
+</form>
+</body>
+</html>
+```
+
+Through the use of cookies, the webpage should be able to remember whatever level you input.
