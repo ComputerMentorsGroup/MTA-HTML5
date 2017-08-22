@@ -10,3 +10,28 @@ Feel free to also use the study guide on our student portal as you prepare to ta
 You will receive up to 200 points for passing your exam, based upon your score.  For example, A score of 70% would receive 140 points since 140 is 70% of 200.  Or you can multiply your score percentage by 2.  80% = 160, 90% = 180, 100% = 200...
 
 Good luck!
+
+
+## Important Vocabulary
+* App Container
+* AppCache
+* API - Application Programming Interface
+* Application State
+* CSS
+* Cookies
+* Debugging
+* Gesture
+* HTML - Hypertext Markup Language
+* HTTP - Hypertext Transport Protocol
+* JavaScript
+* localStorage
+* Media Queries
+* Namespace
+* Platform-independent
+* Scripting Language
+* Session State
+* sessionStorage
+* touchEvent
+* validator
+* WindowsRT (Windows Runtime)
+* W3C - World Wide Web Consortium
