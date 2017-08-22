@@ -9,7 +9,7 @@ In Lesson 9, you will explore form-database interactions. Sending and receiving 
 
 
 ### PART I:
-**Create and style a form using HTML and CSS.  This form will be used to collect information.  You may use any fields you wish!
+**Create and style a form using HTML and CSS.  This form will be used to collect information.  You may use any fields you wish!**
 
 **Criteria for the Lesson 9 webpage:**
 * Create a form
