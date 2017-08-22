@@ -61,6 +61,17 @@ select {
 
 ### PART II:
 
+**Establish a MySQL Database**
+1. Click the **bash** tab at the bottom of the c9.io interface
+2. We will use the commands as described here: https://docs.c9.io/docs/setup-a-database and below:
+3. Type: **mysql-ctl install** and press **enter**
+4. Write down the username and password in a safe place
+5. Type: **show databases;** and press **enter**
+6. Since we will be using the c9 database, type **use c9;** and press **enter**
+7. Type: **show tables;** and press **enter**
+8. Tables store data.  We do not have any tables yet!  Let's create one.  
+Type: **CREATE TABLE Demo (id int(6) PRIMARY KEY AUTO INCREMENT UNIQUE, StudentName VARCHAR(120), Location VARCHAR(120), ClassDate TIMESTAMP);**
+
 
 ## Details
 Details about what the code above goes here
