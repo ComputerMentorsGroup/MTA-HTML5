@@ -187,4 +187,5 @@ If your table is named BANANA, type SELECT * FROM BANANA
 **This command shows all records in the specified table in the order they were submitted.**  If you only wanted the name field and timestamp only, you could type: SELECT StudentName, ClassDate FROM Demo;
 
 
+Need another example?  Check out: https://www.w3schools.com/php/php_mysql_insert.asp
 
