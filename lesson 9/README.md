@@ -84,17 +84,13 @@ The **datatype** could mean it's a string of text (varchar), a number that (int)
 
 
 8. Let's continue using the example form we created previously.  Type the following, using *SHIFT+ENTER* to go down each line.  Press **ENTER** at the very end.
-
+``SQL
 CREATE TABLE Demo (
-
   id int(6) PRIMARY KEY AUTO_INCREMENT UNIQUE,
-  
   StudentName VARCHAR(120),
-  
   Location VARCHAR(120),
-  
   ClassDate TIMESTAMP);
-
+```
 #### In our example scenario, each student who signs in via the form would be given an ID and a TIMESTAMP, issued when the submit button is pressed and the entry is stored into the table we just made.  
 
 
