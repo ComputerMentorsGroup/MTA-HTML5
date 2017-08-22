@@ -73,18 +73,20 @@ select {
 #### We do not have any tables yet!  A table is what holds and organizes the structure of data after it has been submitted via the form.  There are lots of tables within a database which share and link information together.  For example, one table may hold a list of products, another table may hold a list of customers, and a third table may hold all of the orders, linking products and customers together.
 
 The command to create a table looks like this, in concept:
+```SQL
 CREATE TABLE table_name (
     column1 datatype constraint,
     column2 datatype constraint,
     column3 datatype constraint,
     ....
 );
+```
 
 The **datatype** could mean it's a string of text (varchar), a number that (int), timestamp, or many other things!  For more info on datatypes, visit: http://www.cs.toronto.edu/~nn/csc309/guide/pointbase/docs/html/htmlfiles/dev_datatypesandconversionsFIN.html
 
 
 8. Let's continue using the example form we created previously.  Type the following, using *SHIFT+ENTER* to go down each line.  Press **ENTER** at the very end.
-``SQL
+```SQL
 CREATE TABLE Demo (
   id int(6) PRIMARY KEY AUTO_INCREMENT UNIQUE,
   StudentName VARCHAR(120),
