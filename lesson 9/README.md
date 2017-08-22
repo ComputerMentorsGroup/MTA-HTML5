@@ -83,7 +83,7 @@ CREATE TABLE table_name (
 The **datatype** could mean it's a string of text (varchar), a number that (int), timestamp, or many other things!  For more info on datatypes, visit: http://www.cs.toronto.edu/~nn/csc309/guide/pointbase/docs/html/htmlfiles/dev_datatypesandconversionsFIN.html
 
 
-8. **Let's continue using the example form we created previously.  Type the following: **
+8. Let's continue using the example form we created previously.  Type the following, using *SHIFT+ENTER* to go down each line.  Press **ENTER** at the very end.
 
 CREATE TABLE Demo (
 
