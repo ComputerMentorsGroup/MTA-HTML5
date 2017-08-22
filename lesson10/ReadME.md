@@ -47,6 +47,6 @@ The basic steps for building a web app are as follows:
 4. Write Code!
 5. Build the App, converting it into an actual app, using Visual Studio
 6. Debug and Test - check for errors! 
-7. Package - Package the app into a container, which holds all the various files required by the app, such as images, pages, JavaScript, etc.  By packaging an app into its own container, the Windows Runtime Environment can manage memory and the app can run without possibly corrupting the Windows Operating System.  The App Container also makes the app easy to uninstall, since it's all packaged together as one piece, rather than having to download 100s of files.
+7. Package - Package the app into a container, which holds all the various files required by the app, such as images, pages, JavaScript, etc.  By packaging an app into its own container the Windows Runtime Environment can manage memory and the app can run without possibly corrupting the Windows Operating System.  The App Container also makes the app easy to uninstall, since it's all packaged together as one piece, rather than having to download 100s of files. Packages may contain more packages!
 8. Validate the app through a validation program or website to make sure it is not missing any vital markup.
 9. Deploy the app to the Windows Store.
