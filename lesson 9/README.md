@@ -172,7 +172,7 @@ body {font-family: verdana;}
 ## Test your form!
 1. Fill out your form and press Submit
 2. Your form should direct you to the db.php page where the information is submitted into the database.  If you run into problems, double check the capitalization and spelling of your variables and the NAME of each form or input field.
-3. How can we tell if the info went into our database? We're going to use a SQL Query Select statement: Select * FROM [table-name]
+3. How can we tell if the info went into our database? We're going to use a SQL Query Select statement, which looks something like this: Select * FROM [table-name]
 
 Go to the BASH command line interface and type the following: 
 **SELECT * FROM Demo;**
