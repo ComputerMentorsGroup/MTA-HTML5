@@ -169,24 +169,18 @@ body {font-family: verdana;}
 </body>
 ```
 
-## Details
-Details about what the code above goes here
+## Test your form!
+1. Fill out your form and press Submit
+2. Your form should direct you to the db.php page where the information is submitted into the database.  If you run into problems, double check the capitalization and spelling of your variables and the NAME of each form or input field.
+3. How can we tell if the info went into our database? We're going to use a SQL Query Select statement: Select * FROM [table-name]
 
-* `Each line of code should be bulleted here`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
+Go to the BASH command line interface and type the following: 
+**SELECT * FROM Demo;**
+
+If your table is named BANANA, type SELECT * FROM BANANA
+(Make sure capitalization matches - this is CASE SENSITIVE)
 
 
-# Challenge Num
 
-A challenge relating to the original sample code should go here.
 
-```HTML5
-// Sample code should that demonstrates what should be taught in this lesson should go here
-```
 
-* CRITERIA
-    * item
-    * item
-    * item
