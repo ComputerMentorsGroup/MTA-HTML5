@@ -136,16 +136,17 @@ if (!$db_selected) {
     die('Can\'t use ' . DB_NAME . ': ' . mysql_error());
 }
 
-/* These are your form field NAME values, which may be different from the sample!  You may add more variables, keeping the same naming convention, such as $value3, $value4....etc. */
+/* These are your form field NAME values, which may be different from the sample! */
+/* You may add more variables, keeping the same naming convention, such as $value3, $value4....etc. */
 $value = $_POST['StudentName'];
 $value2 = $_POST['Location'];
 
-/* This is inserting form field responses into the database table named DEMO
-/* using the column names StudentName, Location.  Change as appropriate to your form.
-/* If your table is named IGUANA then make sure it says IGUANA and not DEMO.  
-/* If you don't have a field named Location, then don't include it.  
-/* Maybe you have a field named Phone, make sure it is included and has a variable assigned to it ($value)
-/* Perhaps you have another field named BirthDate... make sure it was assigned a value ($value3) and include it below.
+/* This is inserting form field responses into the database table named DEMO */
+/* using the column names StudentName, Location.  Change as appropriate to your form. */
+/* If your table is named IGUANA then make sure it says IGUANA and not DEMO.  */
+/* If you don't have a field named Location, then don't include it.  */
+/* Maybe you have a field named Phone, make sure it is included and has a variable assigned to it ($value) */
+/* Perhaps you have another field named BirthDate... make sure it was assigned a value ($value3) and include it below. */
 
 $sql = "INSERT INTO Demo (StudentName, Location) VALUES ('$value', '$value2')";
 
@@ -158,7 +159,7 @@ if (!mysql_query($sql)) {
 mysql_close();
 ?>
 
-/* Customize the Form Submitted/Received message
+<!-- Customize the Form Submitted/Received message -->
 <style>
 body {font-family: verdana;}
 </style>
