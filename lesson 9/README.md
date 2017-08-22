@@ -177,7 +177,9 @@ body {font-family: verdana;}
 How can we tell if the info went into our database? We're going to use a SQL Query Select statement, which looks something like this: Select * FROM [table-name]
 
 Go to the BASH command line interface and type the following: 
-**SELECT * FROM Demo;**
+```SQL
+SELECT * FROM Demo;
+```
 
 If your table is named BANANA, type SELECT * FROM BANANA
 (Make sure capitalization matches - this is CASE SENSITIVE)
