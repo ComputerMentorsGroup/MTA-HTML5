@@ -8,7 +8,7 @@ In Lesson 9, you will explore form-database interactions. Sending and receiving 
 3. Follow the instructions provided carefully. If any problems arise, contact your instructor.
 
 
-### PART I:
+## PART I:
 **Create and style a form using HTML and CSS.  This form will be used to collect information.  You may use any fields you wish!**
 
 **Criteria for the Lesson 9 webpage:**
@@ -59,7 +59,7 @@ select {
 ```
 
 
-### PART II:
+## PART II:
 
 **Establish a MySQL Database**
 1. Click the **bash** tab at the bottom of the c9.io interface
@@ -108,7 +108,7 @@ CREATE TABLE Demo (
 
 
 
-### PART III:
+## PART III:
 
 ## Details
 Details about what the code above goes here
