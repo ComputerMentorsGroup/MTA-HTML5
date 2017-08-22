@@ -184,7 +184,16 @@ SELECT * FROM Demo;
 If your table is named BANANA, type SELECT * FROM BANANA
 (Make sure capitalization matches - this is CASE SENSITIVE)
 
-**This command shows all records in the specified table in the order they were submitted.**  If you only wanted the name field and timestamp only, you could type: SELECT StudentName, ClassDate FROM Demo;
+**This command shows all records in the specified table in the order they were submitted.**  If you only wanted the name field and timestamp only, you could type: 
+
+```SQL
+SELECT StudentName, ClassDate FROM Demo;
+```
+
+What do you think this one would do?
+```SQL
+SELECT StudentName FROM Demo WHERE Location = 'HIVE';
+ ```
 
 
 Need another example?  Check out: https://www.w3schools.com/php/php_mysql_insert.asp
