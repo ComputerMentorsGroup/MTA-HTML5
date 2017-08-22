@@ -69,8 +69,26 @@ select {
 5. Type: **show databases;** and press **enter**
 6. Since we will be using the c9 database, type **use c9;** and press **enter**
 7. Type: **show tables;** and press **enter**
-8. Tables store data.  We do not have any tables yet!  Let's create one.  
-Type: **CREATE TABLE Demo (id int(6) PRIMARY KEY AUTO INCREMENT UNIQUE, StudentName VARCHAR(120), Location VARCHAR(120), ClassDate TIMESTAMP);**
+
+#### We do not have any tables yet!  A table is what holds and organizes the structure of data after it has been submitted via the form.  There are lots of tables within a database which share and link information together.  For example, one table may hold a list of products, another table may hold a list of customers, and a third table may hold all of the orders, linking products and customers together.
+
+The command to create a table looks like this, in concept:
+CREATE TABLE table_name (
+    column1 datatype constraint,
+    column2 datatype constraint,
+    column3 datatype constraint,
+    ....
+);
+
+The **datatype** could mean it's a string of text (varchar), a number that (int), timestamp, or many other things!  For more info on datatypes, visit: http://www.cs.toronto.edu/~nn/csc309/guide/pointbase/docs/html/htmlfiles/dev_datatypesandconversionsFIN.html
+
+
+8. **Let's continue using the example form we created previously.  Type the following: **
+CREATE TABLE Demo (
+  id int(6) PRIMARY KEY AUTO_INCREMENT UNIQUE,
+  StudentName VARCHAR(120),
+  Location VARCHAR(120),
+  ClassDate TIMESTAMP);
 
 
 ## Details
