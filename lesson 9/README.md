@@ -17,7 +17,7 @@ In Lesson 9, you will explore form-database interactions. Sending and receiving 
 * The form must look visually appealing.
 
 HTML:
-```HTML5
+```HTML
 <form name="Roster" action="db.php" method="post" onsubmit="required()" />
 <p><input type="text" name="StudentName" placeholder="Your Full Name" /></p>
 <p>
