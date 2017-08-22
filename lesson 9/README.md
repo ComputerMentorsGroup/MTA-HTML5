@@ -12,7 +12,7 @@ In Lesson 9, you will explore form-database interactions. Sending and receiving 
 **Create and style a form using HTML and CSS.  This form will be used to collect information.  You may use any fields you wish!**
 
 **Criteria for the Lesson 9 webpage:**
-* Create a form
+* Create a form in an **index.html** file
 * Apply styling to buttons and fields
 * The form must look visually appealing.
 
@@ -109,6 +109,56 @@ CREATE TABLE Demo (
 
 
 ## PART III:
+
+1. In Cloud 9 (c9.io), create a file (File-New File) named: **db.php**
+2. Here we will use a language called PHP to make the Form->Database connection.  There are other languages that may do this, such as Node.JS, but for this section we will demonstrate PHP.
+
+
+
+```PHP
+<?php
+
+define('DB_NAME', 'c9');
+define('DB_USER', 'username');
+define('DB_PASSWORD', '');
+define('DB_HOST','localhost');
+
+$link = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
+
+if (!$link) {
+    die('Could not connect: ' . mysql_error());
+}
+
+$db_selected = mysql_select_db(DB_NAME, $link);
+ 
+if (!$db_selected) {
+    die('Can\'t use ' . DB_NAME . ': ' . mysql_error());
+}
+
+
+$value = $_POST['StudentName'];
+$value2 = $_POST['Location'];
+
+/*Insert into DB */
+$sql = "INSERT INTO Demo (StudentName, Location) VALUES ('$value', '$value2')";
+
+
+if (!mysql_query($sql)) {
+    die('Error: ' . mysql_error());
+}
+
+
+mysql_close();
+?>
+
+<style>
+body {font-family: verdana;}
+</style>
+<body>
+<h1>Submission Received!</h1>
+<p><a href="index.html">(Go Back)</a></p>
+</body>
+```
 
 ## Details
 Details about what the code above goes here
