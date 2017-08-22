@@ -95,6 +95,20 @@ CREATE TABLE Demo (
   
   ClassDate TIMESTAMP);
 
+#### In our example scenario, each student who signs in via the form would be given an ID and a TIMESTAMP, issued when the submit button is pressed and the entry is stored into the table we just made.  
+
+
+9.  Now create a table that uses all of your form inputs!  Must include the following:
+* ID using a Primary Key
+* Timestamp
+* All fields within your form
+
+#### We've created a form and established a database, but we still need to connect the form to the database!  See Part III.
+
+
+
+
+### PART III:
 
 ## Details
 Details about what the code above goes here
