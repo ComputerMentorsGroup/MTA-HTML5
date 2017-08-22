@@ -97,7 +97,7 @@ CREATE TABLE Demo (
 
 
 9.  Now create a table that uses all of your form inputs!  Must include the following:
-* ID using a Primary Key
+* ID using a Primary Key & Auto_Increment
 * Timestamp
 * All fields within your form
 
