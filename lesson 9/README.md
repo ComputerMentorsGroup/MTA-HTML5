@@ -113,11 +113,12 @@ CREATE TABLE Demo (
 1. In Cloud 9 (c9.io), create a file (File-New File) named: **db.php**
 2. Here we will use a language called PHP to make the Form->Database connection.  There are other languages that may do this, such as Node.JS, but for this section we will demonstrate PHP.
 
-
+Be sure to read the commented text to make changes to our sample code.
 
 ```PHP
 <?php
 
+/* Make sure these are the right credentials, which you recorded earlier!! */
 define('DB_NAME', 'c9');
 define('DB_USER', 'username');
 define('DB_PASSWORD', '');
@@ -135,11 +136,11 @@ if (!$db_selected) {
     die('Can\'t use ' . DB_NAME . ': ' . mysql_error());
 }
 
-
+/* These are your form field NAME values, which may be different from the sample!  You may add more variables, keeping the same naming convention, such as $value3, $value4....etc. */
 $value = $_POST['StudentName'];
 $value2 = $_POST['Location'];
 
-/*Insert into DB */
+/*This is inserting form field responses into the database table named DEMO and column names StudentName, Location.  Change as appropriate to your form.  If your table is named IGUANA then make sure it says IGUANA and not DEMO.  If you don't have a field named Location, then don't include it.  Maybe you have a field named Phone, make sure it is included.  Perhaps you have another named BirthDate... make sure it was assigned a value ($value3) and include it below. */
 $sql = "INSERT INTO Demo (StudentName, Location) VALUES ('$value', '$value2')";
 
 
@@ -151,6 +152,7 @@ if (!mysql_query($sql)) {
 mysql_close();
 ?>
 
+/* Customize the Form Submitted/Received message */
 <style>
 body {font-family: verdana;}
 </style>
