@@ -40,7 +40,7 @@ Good luck!
 
 HTML, CSS, and JavaScript are interpreted languages, which means they do not require a compiler and are platform independent (they can run on tablets, phones, and computers of all kinds).  To package and deploy your project as an App for the Windows Marketplace you will need to use an App Development Tool such as Microsoft Visual Studio.
 
-The basic steps for building a web app are as follows:
+## The basic steps for building a web app are as follows:
 1. Plan your project - Keep it simple!  You're just learning!!  Consider how you want people to interact with your app, such as size of buttons for touch interfaces, or if you need to store data.  Will that data be stored on their device or on a server?
 2. Design a User Interface - Make it intuitive and attractive.  Button positions should make sense.  Consider what feels natural for button placement when you hold a tablet or phone in your hand.  Be sure to design a launcher icon for your app!!!
 3. Update the App Manifest - The manifest file includes properties of the app and what is needed to run, such as Display name, description, orientation (landscape/portrait), file path to the app's icon, and the app's capabilities (system features or devices your app is compatible with).
