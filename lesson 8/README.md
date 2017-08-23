@@ -289,8 +289,7 @@ As far as sample code goes, the below can be typed up in webworker.html
 <head>
 <script>
 var worker = new Worker('doWork.js');
-// Send a message to start the worker and pass a
-variable to it
+// Send a message to start the worker and pass a variable to it
 var info = 'Web Workers';
 worker.postMessage(info);
 // Receive a message from the worker
@@ -300,7 +299,7 @@ worker.onmessage = function (event) {
 };
 </script>
 <title>Web Workers Example</title>
-</head
+</head>
 <body>
 </body>
 </html>
