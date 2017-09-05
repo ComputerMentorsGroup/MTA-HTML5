@@ -582,7 +582,7 @@ window.onclick = function(e) {
 ```
 
 ## CSS
-```HTML5
+```CSS
 .container {
 	margin: 0 auto;
 	width: 80%;
