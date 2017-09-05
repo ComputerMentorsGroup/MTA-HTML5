@@ -14,8 +14,9 @@
 ### [Navigation](#nav)
 ### [Hamburger Nav](#hnav)
 ### [Modal Pop Up](#modal)
-### [Chatbot](#chatbot)
+### [Chatbot](#chat)
 ### [Resizeable Div](#resizediv)
+### [LoadScreen](#loader)
 
 
 ***
@@ -23,12 +24,12 @@
 # Big Red Button 
 
 ## HTML
-```HTML5
+```HTML
 <button onclick="message()">Don't</button>
 ```
 
 ## CSS
-```HTML5
+```CSS
 button {
   height: 200px;
   width: 200px;
@@ -565,11 +566,12 @@ window.onclick = function(e) {
 [Back to Top](#top)
 ***
 
-<a name="chatbot"></a>
+
+<a name="chat"></a>
 # Chatbot
 
 ## HTML
-```HTML5
+```HTML
 <div class="container">
 	<div id="response"><span class="red">Chatbot:</span> Hello!  Type a message for me.</div>
 
@@ -713,7 +715,7 @@ function reply() {
 # Resizeable Div
 
 ## HTML
-```HTML5
+```HTML
 <div id="room"></div>
 
 <table>
@@ -785,6 +787,95 @@ roomDiv.width = roomWidth * 20 + "px";
 	
 }
 
+```
+[Back to Top](#top)
+***
+
+
+<a name="Loader"></a>
+# LoadScreen
+
+## HTML
+```HTML
+<div class="container"><h1> <i class="fa fa-spinner fa-spin"></i></h1>
+	
+	
+	<h3 id="quote"></h3>
+</div>
+```
+
+## CSS
+```CSS
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Architects+Daughter|Great+Vibes|Princess+Sofia');
+
+body {
+	cursor: url(http://findicons.com/files/icons/1588/farm_fresh_web/32/hourglass.png), wait;
+	margin: 0 auto;
+	padding: 0;
+	background: url(https://onmyfrontporch.files.wordpress.com/2013/11/colorful-grunge-texture-12.jpg)
+		no-repeat
+		#333;
+	background-size: cover;
+	text-align: center;
+}
+
+h1 {
+	margin: 10% auto 5% auto;
+	font-size: 6em;
+	padding: 0;
+	font-family: Princess Sofia;
+	animation: pulse 2s infinite alternate;
+}
+
+h3 {
+	font-family: Amatic SC;
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+	font-size: 2em;
+	color: black;
+}
+
+@keyframes pulse {
+	0% {color:orange;}
+	100% {color: purple;}
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+```
+
+## JS
+```JavaScript
+var tips, numTips, gen;
+
+/* Array of tips */
+tips = [
+	"hello", 
+	"hola", 
+	"bonjour", 
+	"que pasa", 
+	"no bueno",
+	"les courses de chevaux",
+	"s'il vous plait",
+	"Did you know?"]; 
+
+/* How many tips exist */
+numTips = tips.length;
+
+/* Randomly select an index # within range of number of tips*/
+gen = Math.floor((Math.random() * numTips)  + 0); 
+
+/* Display randomly generated tip into the quote div */
+document.getElementById("quote").innerHTML = tips[gen]; 
 ```
 [Back to Top](#top)
 ***
