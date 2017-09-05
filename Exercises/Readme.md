@@ -18,6 +18,7 @@
 ### [Resizeable Div](#resizediv)
 ### [LoadScreen](#loader)
 ### [FizzBuzz](#fizzbuzz-1)
+### [Website Template](#template)
 
 
 ***
@@ -930,4 +931,201 @@ for (i = 1; i < 101; i++) {
 [Back to Top](#top)
 ***
 
+<a name="template"></a>
+# Website Template
+
+## HTML
+```HTML
+<header>
+<h1>Kitty Rescue</h1>
+<h3>A sample feral cat rescue site</h3>
+</header>
+
+<article class="one">
+</article>
+
+<section>
+	<h2>About</h2>
+	<p>This is not a real website. </p>
+</section>
+
+
+<article class="two">
+</article>
+
+
+<section>
+	<h2>Services</h2>
+	<p>Please call for pricing.</p>
+	<ul>
+		<li>Spay/Neuter</li>
+		<li>Vaccination</li>
+		<li>Minor Wounds</li>
+		<li>Antibiotics</li>
+		<li>Fostering</li>
+		<li>Adoption</li>
+		<li>TNVR Program</li>
+		<li>Humane Trap Rental</li>
+		<li>No-Kill Shelter</li>
+		<li>Barn Colonies</li>
+		<li>Humane Euthenasia</li>
+	</ul>
+</section>
+
+
+<article class="three">
+</article>
+
+
+<section class="contact">
+	<h2>Contact</h2>
+	<input type="text" placeholder="Your Name" name="Name">
+	<input type="text" placeholder="Your Email" name="Email">
+	<input type="text" placeholder="Your Number" name="number">
+	<input type="textarea" placeholder="Message" name="message">
+	<input type="submit" value="Send">
+	
+	<h2 class="hours">Open Saturday & Sunday 12:00PM - 8:00PM</h2>
+</section>
+
+<footer>Copyright 2017</footer>
+```
+
+## CSS
+```CSS
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One|Vibur');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: #333;
+	color: #5af;
+	margin: 0;
+	padding: 0;
+	font-family: Bubbler One, sans-serif;
+	height: 400px;
+}
+
+header h1 {
+	padding: 230px 0 0 20px;
+	font-size: 47pt;
+	line-height: 47pt;
+}
+
+header h3 {
+	padding: 0 0 0 20px;
+	color: #eee;
+	font-size: 20pt;
+	line-height: 20pt;
+}
+
+h2 {
+	padding: 10px 0 5px 10px;
+	font-style: italic;
+	margin: 0;
+	font-family: vibur;
+	font-size: 40pt;
+	text-align: center;
+	color: #5af;
+}
+
+p {
+	margin: 0 auto;
+	padding: 20px;
+	font-family: Helvetica;
+	font-size: 11pt;
+	text-align: justify;
+}
+
+section {
+	background: #fff;
+	margin: 30px 0;
+	padding: 5px;
+	border-radius: 3px;
+	height: 400px;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 9pt;
+	padding: 10px;
+}
+
+.one {
+	background: url("https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg")
+		fixed
+		no-repeat;
+	background-size: cover;
+	height: 280px;
+}
+
+.two {
+	background: url("http://www.rd.com/wp-content/uploads/sites/2/2016/02/06-train-cat-shake-hands.jpg")
+		fixed
+		no-repeat;
+	background-size: cover;
+	height: 280px;
+}
+
+.three {
+	background: url("http://www.readersdigest.ca/wp-content/uploads/2010/07/why-are-all-calico-cats-female-1024x768.jpg")
+		fixed
+		no-repeat;
+	background-size: cover;
+	height: 280px;
+}
+
+ul li {
+	font-family: Helvetica;
+	font-size: 11pt;
+	list-style: square;
+	line-height: 16pt;
+}
+
+.contact {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px 0 30px 0;
+}
+
+.hours {text-align: center;}
+
+input[type=text], input[type=textarea] {
+	border: 3px solid #5af;
+	background: #dee;
+	height: 20px;
+	padding: 2px;
+	color: #000;
+}
+
+input[type=submit] {
+	background: #fff;
+	color: #5af;
+	height: 40px;
+	width: 150px;
+	margin: 10px auto;
+	border: 3px solid #5af;
+	font-size: 14pt;
+	text-transform: uppercase;
+	display: block;
+}
+
+input[type=submit]:hover {
+	background: #5af;
+	color: #fff;
+	transition: .5s;
+}
+
+
+```
+
+
+[Back to Top](#top)
+***
 
