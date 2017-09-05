@@ -15,6 +15,7 @@
 ### [Hamburger Nav](#hnav)
 ### [Modal Pop Up](#modal)
 ### [Chatbot](#chatbot)
+### [Resizeable Div](#resizediv)
 
 
 ***
@@ -702,20 +703,61 @@ function reply() {
 }
 
 ```
+
 [Back to Top](#top)
+
 ***
 
 
-<a name="chatbot"></a>
-# Chatbot
+<a name="resizediv"></a>
+# Resizeable Div
 
 ## HTML
 ```HTML5
+<div id="room"></div>
 
+<table>
+ <form>
+  <tr><td>
+   Room Length in Feet:
+	  </td>
+	  <td>
+   <input type="text" name="roomLength" id="roomL" placeholder="Room Length?">
+	  </td></tr>
+  <tr><td>
+   Room Width in Feet:
+	  </td><td>
+	  <input type="text" name="roomWidth" id="roomW" placeholder="Room Width?">
+	  </td></tr>
+ </form>
+</table>
 ```
 
 ## CSS
-```HTML5
+```CSS
+#room {
+	margin: 20px auto;
+	border: 1px solid #000;
+	background-color: #000;
+	background-image: linear-gradient(rgba(255, 0, 0, 1) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(255, 0, 0, 1) 1px, transparent 1px);
+	background-size: 20px 20px;
+	background-position: top right;
+	transition: 2s;
+	height: 20px;
+	width: 20px;
+}
+
+input {
+	width: 200px;
+	height: auto;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+body {
+	font-family: Arial;
+}
 
 ```
 
@@ -723,6 +765,25 @@ function reply() {
 ## JS
 
 ```JavaScript
+document.getElementById("roomL").addEventListener("keyup", getDim);
+													
+document.getElementById("roomW").addEventListener("keyup", getDim);
+
+
+
+function getDim() {
+
+var roomLength = document.getElementById("roomL").value;
+
+var roomWidth = document.getElementById("roomW").value;
+	
+var roomDiv = document.getElementById("room").style;
+	
+roomDiv.height = roomLength * 20 + "px";
+
+roomDiv.width = roomWidth * 20 + "px";
+	
+}
 
 ```
 [Back to Top](#top)
