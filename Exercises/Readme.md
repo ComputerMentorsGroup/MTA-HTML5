@@ -14,6 +14,7 @@
 ### [Navigation](#nav)
 ### [Hamburger Nav](#hnav)
 ### [Modal Pop Up](#modal)
+### [Chatbot](#chatbot)
 
 
 ***
@@ -563,3 +564,166 @@ window.onclick = function(e) {
 [Back to Top](#top)
 ***
 
+<a name="chatbot"></a>
+# Chatbot
+
+## HTML
+```HTML5
+<div class="container">
+	<div id="response"><span class="red">Chatbot:</span> Hello!  Type a message for me.</div>
+
+<center>	
+	<input  id="userInput" type="text" placeholder="Hello"/>
+
+	<input type="submit" id="chatSend" value="send" onclick="reply()" onkeydown="enter()"/>
+		
+</div>
+
+```
+
+## CSS
+```HTML5
+.container {
+	margin: 0 auto;
+	width: 80%;
+	background: #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	resize: vertical;
+}
+
+input[type=text], input[type=submit]{
+	font-size: 1.4em;
+	text-align: left;
+	margin: 10px auto 0 auto;
+	padding: 4px;
+	display: inline;
+	font-family: verdana;
+}
+input[type=text]{
+	width: 70%;
+	font-style: italic;
+	border-bottom: 1px solid #666;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	background: #eee;
+	resize: vertical;
+}
+
+input[type=submit]{
+	width: 15%;
+	text-align: center;
+	font-family: verdana;
+}
+
+
+#response {
+	margin: 0 auto;
+	height: 8em;
+	width: 95%;
+	padding: 5px;
+	border: 0px solid #eee;
+	font-family: Verdana;
+	font-size: 1.4em;
+	overflow: auto;
+	background: rgba(255,255,255,.5);
+	resize: vertical;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+}
+```
+
+
+## JS
+
+```JavaScript
+/* Scroll textbox to bottom */
+window.setInterval(function() {
+	var elem = document.getElementById("response");
+	elem.scrollTop = elem.scrollHeight;
+}, 500);
+
+/*Enter button to Submit*/
+document.addEventListener("keyup", function(e) {
+	if (e.keyCode == 13) {
+		reply();
+	}
+});
+
+function reply() {
+	var input = document.getElementById("userInput").value;
+	var chatbox = document.getElementById("response");
+	var userInput = input.toUpperCase();
+
+	/* Display user message */
+	chatbox.innerHTML += "<br/> <span style='color: blue;'>User:</span> " + input;
+
+	/* Check for keywords */
+	var vocab = ["HELLO", "NAME", "BANANA", "HOW ARE YOU", "SAD", "HAPPY", "HI", "HELP", "LOL"];
+
+	/* Responses to keywords */
+	var ans = [
+		"Nice to meet you!",
+		"My name is Chatbot",
+		"I like bananas.",
+		"I'm chat-a-riffic, thanks for asking!",
+		"Don't be sad, get glad!! :)",
+		"Weeee!  I'm happy, too!!",
+		"Hihihi!",
+		"Hi, I'm a chat bot.  Try to say something to me!  I know a few simple words and phrases.  Press ENTER after you've given a message.",
+		"Hehehe"
+	];
+
+	/* Chatbot Reply format */
+	i = 0;
+	while (i < vocab.length) {
+		var mb = "<br/><span style='color: red;'>Chatbot:</span> ";
+		var n = userInput.includes(vocab[i]);
+
+		if (n === true) {
+			chatbox.innerHTML += mb + ans[i];
+			break;
+		}
+
+		i++;
+
+		if (n === false && i === vocab.length) {
+			chatbox.innerHTML += mb + "Sorry, please clarify!";
+		}
+	}
+	document.getElementById("userInput").value = '';
+}
+
+```
+[Back to Top](#top)
+***
+
+
+<a name="chatbot"></a>
+# Chatbot
+
+## HTML
+```HTML5
+
+```
+
+## CSS
+```HTML5
+
+```
+
+
+## JS
+
+```JavaScript
+
+```
+[Back to Top](#top)
+***
