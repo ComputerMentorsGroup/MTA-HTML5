@@ -792,7 +792,7 @@ roomDiv.width = roomWidth * 20 + "px";
 ***
 
 
-<a name="Loader"></a>
+<a name="loader"></a>
 # LoadScreen
 
 ## HTML
