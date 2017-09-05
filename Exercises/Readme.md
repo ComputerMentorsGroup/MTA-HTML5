@@ -17,6 +17,7 @@
 ### [Chatbot](#chat)
 ### [Resizeable Div](#resizediv)
 ### [LoadScreen](#loader)
+### [FizzBuzz](#fizzbuzz)
 
 
 ***
@@ -879,3 +880,54 @@ document.getElementById("quote").innerHTML = tips[gen];
 ```
 [Back to Top](#top)
 ***
+
+
+
+
+
+<a name="fizzbuzz"></a>
+# FizzBuzz
+
+## HTML
+```HTML
+<div id="FizzBuzz"></div>
+```
+
+## CSS
+```CSS
+* {
+	font-family: Courier;
+	text-align: left;
+	font-size: 14pt;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+```
+
+## JS
+```JavaScript
+for (i = 1; i < 101; i++) {
+	
+	//If the number is divisible by 3 and 5, write FIZZBUZZ
+	if (i % 3 && i % 5 == 0) {
+		document.write("FIZZBUZZ<br/>");
+		
+	} else if (i % 3 == 0) {
+		//If the number is divisible by 3, write FIZZ
+		document.write("FIZZ<br/>");
+		
+	} else if (i % 5 == 0) {
+		//If the number is divisble by 5, write BUZZ
+		document.write("BUZZ<br/>");
+		
+	} else {
+		//Otherwise, write the number (i)
+		document.write(i + "<br/>");
+	}
+}
+
+```
+[Back to Top](#top)
+***
+
+
