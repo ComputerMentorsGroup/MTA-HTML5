@@ -14,10 +14,10 @@
 ### [Navigation](#nav)
 ### [Hamburger Nav](#hnav)
 ### [Modal Pop Up](#modal)
-### [Chatbot](#chat)
+### [Chatbot](#chatbot-1)
 ### [Resizeable Div](#resizediv)
 ### [LoadScreen](#loader)
-### [FizzBuzz](#fizzbuzz)
+### [FizzBuzz](#fizzbuzz-1)
 
 
 ***
